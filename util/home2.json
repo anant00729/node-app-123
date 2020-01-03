@@ -121,6 +121,26 @@
                     "image" : "http://lorempixel.com/640/360/"
                 }
             ]
+        },
+        {
+            "type" : "LARGE_VIEW_PAGER",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
         }
     ]
 }
