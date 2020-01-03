@@ -64,20 +64,30 @@ app.get('/test', async (req,res)=> {
 
         let homeList = home_data.homeList
 
-        for(let result of response.results){
-            
+        
+
+
+        let arr = ["1" ,"2" , "3" , "4"]
+
+        let results = response.results
+
+
+        let i = 0
+        
             for(let h of homeList){
                 let j = 0
                 for(let sub of h.subList){
                     if(j === 5){
                         break
                     }
-                    sub.image = `http://image.tmdb.org/t/p/w400${result.poster_path}`
+                    let _res = results[j % results.length].poster_path
+                    sub.image = `http://image.tmdb.org/t/p/w400${_res}`
                     ++j
                 }
-                
+                ++i
             }
-        }
+        
+        
 
 
 
