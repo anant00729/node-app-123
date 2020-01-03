@@ -73,7 +73,9 @@ app.get('/test', async (req,res)=> {
                 if(j === 5){
                     break
                 }
-                let _res = results[i % results.length].poster_path
+                let _i = i + 1
+                let _j = j + 1
+                let _res = results[_i*_j % results.length].poster_path
                 sub.image = `http://image.tmdb.org/t/p/w400${_res}`
                 ++j
             }
