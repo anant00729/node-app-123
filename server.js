@@ -106,12 +106,15 @@ app.get('/test', async (req,res)=> {
 
                     if(m_indx < results.length){
                         _res = results[m_indx].poster_path
+                        sub.name = results[m_indx].original_title
                     }else {
                         _res = results[m_indx % results.length-1].poster_path
+                        sub.name = results[m_indx % results.length-1].original_title
                     }
                     
                     
                     sub.image = `http://image.tmdb.org/t/p/w400${_res}`
+                    
                     ++j
                 }
             }
