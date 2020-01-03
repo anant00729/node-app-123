@@ -91,21 +91,29 @@ app.get('/test', async (req,res)=> {
             let homeList = home_data.homeList
 
             let results = values[0].results
-            let i = 0
+            
             
             for(let h of homeList){
+                let hIndex = homeList.indexOf(h)
                 let j = 0
                 for(let sub of h.subList){
                     if(j === 5){
                         break
                     }
-                    let _i = i + 1
-                    let _j = j + 1
-                    let _res = results[getRandomInt(0,results.length-1)].poster_path
+                    
+                    let _res 
+                    let m_indx = (1+hIndex) * (j+1)
+
+                    if(m_indx < results.length){
+                        _res = results[m_indx].poster_path
+                    }else {
+                        _res = results[m_indx % results.length-1].poster_path
+                    }
+                    
+                    
                     sub.image = `http://image.tmdb.org/t/p/w400${_res}`
                     ++j
                 }
-                ++i
             }
 
             res.json({status : true, message : '', homeList})
