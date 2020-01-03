@@ -64,36 +64,24 @@ app.get('/test', async (req,res)=> {
 
         let homeList = home_data.homeList
 
-        
-
-
-        let arr = ["1" ,"2" , "3" , "4"]
-
         let results = response.results
-
-
         let i = 0
         
-            for(let h of homeList){
-                let j = 0
-                for(let sub of h.subList){
-                    if(j === 5){
-                        break
-                    }
-                    let _res = results[j % results.length].poster_path
-                    sub.image = `http://image.tmdb.org/t/p/w400${_res}`
-                    ++j
+        for(let h of homeList){
+            let j = 0
+            for(let sub of h.subList){
+                if(j === 5){
+                    break
                 }
-                ++i
+                let _res = results[i % results.length].poster_path
+                sub.image = `http://image.tmdb.org/t/p/w400${_res}`
+                ++j
             }
-        
-        
-
-
-
-
+            ++i
+        }
 
         res.json({status : true, message : '', homeList})
+
     } catch (error) {
         res.json({status : false , message : error.message})
     }    
