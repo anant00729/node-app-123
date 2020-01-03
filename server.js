@@ -6,7 +6,7 @@ const path = require('path')
 const request = require('request')
 const http = require('http') 
 
-const home_data = require('./util/home.json')
+const home_data = require('./util/home2.json')
 
 
 
@@ -57,7 +57,6 @@ const PORT = process.env.PORT || 3001
 
 
 app.get('/test', (req,res)=> {
-
     res.json(home_data)
     // request('https://www.tatacliq.com/', function (error, response, body) {
         
@@ -66,7 +65,7 @@ app.get('/test', (req,res)=> {
     // request({
     //     method: 'GET',
     //     url: 'https://www.tatacliq.com/'
-    // }, (err, res, body) => {
+0    // }, (err, res, body) => {
     
     //     if (err) return console.error(err);
     
