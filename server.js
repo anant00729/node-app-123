@@ -6,6 +6,8 @@ const path = require('path')
 const request = require('request')
 const http = require('http') 
 const fetch = require('node-fetch');
+const async = require('async')
+
 
 const home_data = require('./util/home2.json')
 
@@ -55,34 +57,64 @@ const PORT = process.env.PORT || 3001
 // Set static folder
 
 
-const MOV_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=578152be1392218f6d775ceb67b4e4f6&language=en-US&page=3"
+const MOV_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=578152be1392218f6d775ceb67b4e4f6&language=en-US&page="
 
 app.get('/test', async (req,res)=> {
     try {
-        const data = await fetch(MOV_URL)
-        const response = await data.json()
 
-        let homeList = home_data.homeList
 
-        let results = response.results
-        let i = 0
-        
-        for(let h of homeList){
-            let j = 0
-            for(let sub of h.subList){
-                if(j === 5){
-                    break
-                }
-                let _i = i + 1
-                let _j = j + 1
-                let _res = results[_i*_j % results.length].poster_path
-                sub.image = `http://image.tmdb.org/t/p/w400${_res}`
-                ++j
-            }
-            ++i
+  
+        let arrPromise = []
+
+        for(let k = 0 ; k < 5 ; k++){
+            var _promise = new Promise(async(resolve, reject)=> {
+                const data = await fetch(`${MOV_URL}${k+1}`)
+                const response = await data.json()
+                resolve(response)
+            });
+            arrPromise.push(_promise)
         }
 
-        res.json({status : true, message : '', homeList})
+        
+
+        Promise.all(arrPromise).then(function(values) {
+            console.log(values);
+
+            for (let _v of values) {
+                let indexV = values.indexOf(_v)
+                if(indexV !== 0){
+                    Array.prototype.push.apply(values[0].results, _v.results);
+                }
+            }
+
+
+            let homeList = home_data.homeList
+
+            let results = values[0].results
+            let i = 0
+            
+            for(let h of homeList){
+                let j = 0
+                for(let sub of h.subList){
+                    if(j === 5){
+                        break
+                    }
+                    let _i = i + 1
+                    let _j = j + 1
+                    let _res = results[_i*_j % results.length].poster_path
+                    sub.image = `http://image.tmdb.org/t/p/w400${_res}`
+                    ++j
+                }
+                ++i
+            }
+
+            res.json({status : true, message : '', homeList})
+            
+        });
+
+        
+
+        
 
     } catch (error) {
         res.json({status : false , message : error.message})
