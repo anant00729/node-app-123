@@ -3,7 +3,7 @@
     "message" : "",
     "homeList" : [
         {
-            "type" : "SMALL_IMG_HOR_LIST",
+            "type" : "LARGE_LANDSCAPE_CAROSAL",
             "subList" : [
                 {
                     "image" : "http://lorempixel.com/640/360/"
