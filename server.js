@@ -62,11 +62,11 @@ app.get('/test', async (req,res)=> {
         const data = await fetch(MOV_URL)
         const response = await data.json()
 
-        let h_data = home_data.homeList
+        let homeList = home_data.homeList
 
         for(let result of response.results){
             
-            for(let h of h_data){
+            for(let h of homeList){
                 let j = 0
                 for(let sub of h.subList){
                     if(j === 5){
