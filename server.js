@@ -78,7 +78,6 @@ app.get('/test', async (req,res)=> {
         
 
         Promise.all(arrPromise).then(function(values) {
-            console.log(values);
 
             for (let _v of values) {
                 let indexV = values.indexOf(_v)
@@ -92,17 +91,19 @@ app.get('/test', async (req,res)=> {
 
             let results = values[0].results
             
+            let l = 0
             
             for(let h of homeList){
                 let hIndex = homeList.indexOf(h)
                 let j = 0
+                
                 for(let sub of h.subList){
                     if(j === 5){
                         break
                     }
                     
                     let _res 
-                    let m_indx = (1+hIndex) * (j+1)
+                    let m_indx = l
 
                     if(m_indx < results.length){
                         _res = results[m_indx].poster_path
@@ -116,6 +117,7 @@ app.get('/test', async (req,res)=> {
                     sub.image = `http://image.tmdb.org/t/p/w400${_res}`
                     
                     ++j
+                    ++l
                 }
             }
 
