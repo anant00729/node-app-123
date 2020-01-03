@@ -101,7 +101,7 @@ app.get('/test', async (req,res)=> {
                     }
                     let _i = i + 1
                     let _j = j + 1
-                    let _res = results[_i*_j % results.length].poster_path
+                    let _res = results[getRandomInt(0,results.length-1)].poster_path
                     sub.image = `http://image.tmdb.org/t/p/w400${_res}`
                     ++j
                 }
@@ -120,6 +120,14 @@ app.get('/test', async (req,res)=> {
         res.json({status : false , message : error.message})
     }    
 })
+
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 
 // app.use(express.static('public/build'));
 // app.use(express.static('public'));
