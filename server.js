@@ -5,6 +5,7 @@ const db = require('./config/database')
 const path = require('path')
 const request = require('request')
 const http = require('http') 
+const fetch = require('node-fetch');
 
 const home_data = require('./util/home2.json')
 
@@ -54,29 +55,38 @@ const PORT = process.env.PORT || 3001
 // Set static folder
 
 
+const MOV_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=578152be1392218f6d775ceb67b4e4f6&language=en-US&page=3"
+
+app.get('/test', async (req,res)=> {
+    try {
+        const data = await fetch(MOV_URL)
+        const response = await data.json()
+
+        let h_data = home_data.homeList
+
+        for(let result of response.results){
+            
+            for(let h of h_data){
+                let j = 0
+                for(let sub of h.subList){
+                    if(j === 5){
+                        break
+                    }
+                    sub.image = `http://image.tmdb.org/t/p/w400${result.poster_path}`
+                    ++j
+                }
+                
+            }
+        }
 
 
-app.get('/test', (req,res)=> {
-    res.json(home_data)
-    // request('https://www.tatacliq.com/', function (error, response, body) {
-        
-    //     console.log('body:', body); // Print the HTML for the Google homepage.
-    //   });
-    // request({
-    //     method: 'GET',
-    //     url: 'https://www.tatacliq.com/'
-0    // }, (err, res, body) => {
-    
-    //     if (err) return console.error(err);
-    
-    //     let $ = cheerio.load(body);
-    
-    //     let h1El = $('h1');
-    
-    //     let parentEl = h1El.parent();
-    
-    //     console.log(parentEl.get(0).tagName)
-    // });
+
+
+
+        res.json({status : true, message : '', h_data})
+    } catch (error) {
+        res.json({status : false , message : error.message})
+    }    
 })
 
 // app.use(express.static('public/build'));
