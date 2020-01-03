@@ -83,7 +83,7 @@ app.get('/test', async (req,res)=> {
 
 
 
-        res.json({status : true, message : '', h_data})
+        res.json({status : true, message : '', homeList})
     } catch (error) {
         res.json({status : false , message : error.message})
     }    
