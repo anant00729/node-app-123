@@ -31,12 +31,12 @@
                     "description" : "Up to 40% Off"
                 },
                 {
-                    "id" : 20,
+                    "id" : 11,
                     "name" : "Vistara Sale",
                     "description" : "Flash Sale"
                 },
                 {
-                    "id" : 30,
+                    "id" : 12,
                     "name" : "Westside Sale",
                     "description" : "Up to 80% Off"
                 }
@@ -48,17 +48,17 @@
             "name" : "TOP DEALS",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 13,
                     "name" : "COMBO #1",
                     "description" : "Of the week"
                 },
                 {
-                    "id" : 20,
+                    "id" : 14,
                     "name" : "COMBO #2",
                     "description" : "Flash Sale"
                 },
                 {
-                    "id" : 30,
+                    "id" : 15,
                     "name" : "COMBO #3",
                     "description" : "Of the week"
                 }
@@ -70,17 +70,17 @@
             "name" : "POPULAR",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 16,
                     "name" : "Westside",
                     "description" : "New Arrivals"
                 },
                 {
-                    "id" : 20,
+                    "id" : 17,
                     "name" : "Chroma",
                     "description" : "Discount on macbook laptops"
                 },
                 {
-                    "id" : 30,
+                    "id" : 18,
                     "name" : "Tanishq",
                     "description" : "Up to 20% Off"
                 }
@@ -92,7 +92,7 @@
             "name" : "RECOMMENDED",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 19,
                     "name" : "Smart TV",
                     "description" : "Up to 40% Off"
                 },
@@ -102,7 +102,7 @@
                     "description" : "Flash Sale"
                 },
                 {
-                    "id" : 30,
+                    "id" : 21,
                     "name" : "Westside Sale",
                     "description" : "Up to 80% Off"
                 }
@@ -114,17 +114,17 @@
             "name" : "TOP DEALS",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 22,
                     "name" : "COMBO #1",
                     "description" : "Of the week"
                 },
                 {
-                    "id" : 20,
+                    "id" : 23,
                     "name" : "COMBO #2",
                     "description" : "Flash Sale"
                 },
                 {
-                    "id" : 30,
+                    "id" : 24,
                     "name" : "COMBO #3",
                     "description" : "Of the week"
                 }
@@ -136,17 +136,17 @@
             "name" : "POPULAR",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 25,
                     "name" : "Westside",
                     "description" : "New Arrivals"
                 },
                 {
-                    "id" : 20,
+                    "id" : 26,
                     "name" : "Chroma",
                     "description" : "Discount on macbook laptops"
                 },
                 {
-                    "id" : 30,
+                    "id" : 27,
                     "name" : "Tanishq",
                     "description" : "Up to 20% Off"
                 }
@@ -158,12 +158,12 @@
             "name" : "RECOMMENDED",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 28,
                     "name" : "Smart TV",
                     "description" : "Up to 40% Off"
                 },
                 {
-                    "id" : 20,
+                    "id" : 29,
                     "name" : "Vistara Sale",
                     "description" : "Flash Sale"
                 },
@@ -180,17 +180,17 @@
             "name" : "TOP DEALS",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 31,
                     "name" : "COMBO #1",
                     "description" : "Of the week"
                 },
                 {
-                    "id" : 20,
+                    "id" : 32,
                     "name" : "COMBO #2",
                     "description" : "Flash Sale"
                 },
                 {
-                    "id" : 30,
+                    "id" : 33,
                     "name" : "COMBO #3",
                     "description" : "Of the week"
                 }
@@ -202,17 +202,17 @@
             "name" : "POPULAR",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : 34,
                     "name" : "Westside",
                     "description" : "New Arrivals"
                 },
                 {
-                    "id" : 20,
+                    "id" : 35,
                     "name" : "Chroma",
                     "description" : "Discount on macbook laptops"
                 },
                 {
-                    "id" : 30,
+                    "id" : 36,
                     "name" : "Tanishq",
                     "description" : "Up to 20% Off"
                 }

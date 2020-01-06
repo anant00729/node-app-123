@@ -248,6 +248,30 @@ app.get('/homeOffers',(req,res) => {
     res.json(home_offers)
 })
 
+
+app.post('/singleHomeOfferDetails',(req,res) => {
+
+
+    const offerId = req.body.offerId || 10
+    const catId = req.body.catId || 100
+
+
+    const catObj = home_offers.offersList.find(cat => cat.id === catId)
+    if(catObj){
+        
+        const mainOffer = catObj.subOffersList.find(offer => offer.id === offerId)
+        if(mainOffer){
+            res.json({status : true, message : '' , singleOffer : mainOffer})
+        }else {
+            res.json({status : false, message : 'Offer not found' })
+        }
+
+    }else {
+        res.json({status : false, message : 'Category not found' })
+    }
+})
+
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
