@@ -86,6 +86,138 @@
                 }
             ]
 
+        },
+        {
+            "id" : 100,
+            "name" : "RECOMMENDED",
+            "subOffersList" : [
+                {
+                    "id" : 10,
+                    "name" : "Smart TV",
+                    "description" : "Up to 40% Off"
+                },
+                {
+                    "id" : 20,
+                    "name" : "Vistara Sale",
+                    "description" : "Flash Sale"
+                },
+                {
+                    "id" : 30,
+                    "name" : "Westside Sale",
+                    "description" : "Up to 80% Off"
+                }
+            ]
+
+        },
+        {
+            "id" : 200,
+            "name" : "TOP DEALS",
+            "subOffersList" : [
+                {
+                    "id" : 10,
+                    "name" : "COMBO #1",
+                    "description" : "Of the week"
+                },
+                {
+                    "id" : 20,
+                    "name" : "COMBO #2",
+                    "description" : "Flash Sale"
+                },
+                {
+                    "id" : 30,
+                    "name" : "COMBO #3",
+                    "description" : "Of the week"
+                }
+            ]
+
+        },
+        {
+            "id" : 100,
+            "name" : "POPULAR",
+            "subOffersList" : [
+                {
+                    "id" : 10,
+                    "name" : "Westside",
+                    "description" : "New Arrivals"
+                },
+                {
+                    "id" : 20,
+                    "name" : "Chroma",
+                    "description" : "Discount on macbook laptops"
+                },
+                {
+                    "id" : 30,
+                    "name" : "Tanishq",
+                    "description" : "Up to 20% Off"
+                }
+            ]
+
+        },
+        {
+            "id" : 100,
+            "name" : "RECOMMENDED",
+            "subOffersList" : [
+                {
+                    "id" : 10,
+                    "name" : "Smart TV",
+                    "description" : "Up to 40% Off"
+                },
+                {
+                    "id" : 20,
+                    "name" : "Vistara Sale",
+                    "description" : "Flash Sale"
+                },
+                {
+                    "id" : 30,
+                    "name" : "Westside Sale",
+                    "description" : "Up to 80% Off"
+                }
+            ]
+
+        },
+        {
+            "id" : 200,
+            "name" : "TOP DEALS",
+            "subOffersList" : [
+                {
+                    "id" : 10,
+                    "name" : "COMBO #1",
+                    "description" : "Of the week"
+                },
+                {
+                    "id" : 20,
+                    "name" : "COMBO #2",
+                    "description" : "Flash Sale"
+                },
+                {
+                    "id" : 30,
+                    "name" : "COMBO #3",
+                    "description" : "Of the week"
+                }
+            ]
+
+        },
+        {
+            "id" : 100,
+            "name" : "POPULAR",
+            "subOffersList" : [
+                {
+                    "id" : 10,
+                    "name" : "Westside",
+                    "description" : "New Arrivals"
+                },
+                {
+                    "id" : 20,
+                    "name" : "Chroma",
+                    "description" : "Discount on macbook laptops"
+                },
+                {
+                    "id" : 30,
+                    "name" : "Tanishq",
+                    "description" : "Up to 20% Off"
+                }
+            ]
+
         }
     ]
 }
