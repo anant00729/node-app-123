@@ -28,39 +28,18 @@
                 {
                     "id" : 10,
                     "name" : "Smart TV",
-                    "description" : "Up to 40% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 40% Off"
                     
                 },
                 {
                     "id" : 11,
                     "name" : "Vistara Sale",
-                    "description" : "Flash Sale",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Flash Sale"
                 },
                 {
                     "id" : 12,
                     "name" : "Westside Sale",
-                    "description" : "Up to 80% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 80% Off"
                 }
             ]
 
@@ -72,38 +51,17 @@
                 {
                     "id" : 13,
                     "name" : "COMBO #1",
-                    "description" : "Of the week",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Of the week"
                 },
                 {
                     "id" : 14,
                     "name" : "COMBO #2",
-                    "description" : "Flash Sale",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Flash Sale"
                 },
                 {
                     "id" : 15,
                     "name" : "COMBO #3",
-                    "description" : "Of the week",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Of the week"
                 }
             ]
 
@@ -115,38 +73,17 @@
                 {
                     "id" : 16,
                     "name" : "Westside",
-                    "description" : "New Arrivals",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "New Arrivals"
                 },
                 {
                     "id" : 17,
                     "name" : "Chroma",
-                    "description" : "Discount on macbook laptops",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Discount on macbook laptops"
                 },
                 {
                     "id" : 18,
                     "name" : "Tanishq",
-                    "description" : "Up to 20% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 20% Off"
                 }
             ]
 
@@ -158,38 +95,17 @@
                 {
                     "id" : 19,
                     "name" : "Smart TV",
-                    "description" : "Up to 40% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 40% Off"
                 },
                 {
                     "id" : 20,
                     "name" : "Vistara Sale",
-                    "description" : "Flash Sale",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Flash Sale"
                 },
                 {
                     "id" : 21,
                     "name" : "Westside Sale",
-                    "description" : "Up to 80% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 80% Off"
                 }
             ]
 
@@ -201,38 +117,17 @@
                 {
                     "id" : 22,
                     "name" : "COMBO #1",
-                    "description" : "Of the week",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Of the week"
                 },
                 {
                     "id" : 23,
                     "name" : "COMBO #2",
-                    "description" : "Flash Sale",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Flash Sale"
                 },
                 {
                     "id" : 24,
                     "name" : "COMBO #3",
-                    "description" : "Of the week",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Of the week"
                 }
             ]
 
@@ -244,38 +139,17 @@
                 {
                     "id" : 25,
                     "name" : "Westside",
-                    "description" : "New Arrivals",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "New Arrivals"
                 },
                 {
                     "id" : 26,
                     "name" : "Chroma",
-                    "description" : "Discount on macbook laptops",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Discount on macbook laptops"
                 },
                 {
                     "id" : 27,
                     "name" : "Tanishq",
-                    "description" : "Up to 20% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 20% Off"
                 }
             ]
 
@@ -287,38 +161,17 @@
                 {
                     "id" : 28,
                     "name" : "Smart TV",
-                    "description" : "Up to 40% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 40% Off"
                 },
                 {
                     "id" : 29,
                     "name" : "Vistara Sale",
-                    "description" : "Flash Sale",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Flash Sale"
                 },
                 {
                     "id" : 30,
                     "name" : "Westside Sale",
-                    "description" : "Up to 80% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 80% Off"
                 }
             ]
 
@@ -330,38 +183,17 @@
                 {
                     "id" : 31,
                     "name" : "COMBO #1",
-                    "description" : "Of the week",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Of the week"
                 },
                 {
                     "id" : 32,
                     "name" : "COMBO #2",
-                    "description" : "Flash Sale",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Flash Sale"
                 },
                 {
                     "id" : 33,
                     "name" : "COMBO #3",
-                    "description" : "Of the week",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Of the week"
                 }
             ]
 
@@ -373,38 +205,17 @@
                 {
                     "id" : 34,
                     "name" : "Westside",
-                    "description" : "New Arrivals",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "New Arrivals"
                 },
                 {
                     "id" : 35,
                     "name" : "Chroma",
-                    "description" : "Discount on macbook laptops",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Discount on macbook laptops"
                 },
                 {
                     "id" : 36,
                     "name" : "Tanishq",
-                    "description" : "Up to 20% Off",
-                    "images" : [
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162685470.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163209758.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162816542.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
-                        "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
-                    ]
+                    "description" : "Up to 20% Off"
                 }
             ]
 
