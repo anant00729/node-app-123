@@ -264,11 +264,7 @@ app.post('/singleHomeOfferDetails',(req,res) => {
             let arrImages = mainOffer.images
 
             arrImages = shuffle(arrImages)
-
-
-            console.log('arrImages', arrImages)
-
-            
+            arrImages.splice(-1,2)
             res.json({status : true, message : '' , singleOffer : mainOffer})
         }else {
             res.json({status : false, message : 'Offer not found' })
