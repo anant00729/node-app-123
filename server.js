@@ -249,7 +249,7 @@ app.get('/homeOffers',(req,res) => {
 })
 
 
-app.post('/singleHomeOfferDetails',(req,res) => {
+app.get('/singleHomeOfferDetails',(req,res) => {
 
 
     const offerId = req.body.offerId || 10
@@ -264,7 +264,11 @@ app.post('/singleHomeOfferDetails',(req,res) => {
             let arrImages = mainOffer.images
 
             arrImages = shuffle(arrImages)
-            arrImages.splice(-1,2)
+            if(arrImages.length === 5){
+                arrImages.splice(arrImages.length - 2, 2)
+            }
+            
+            
             res.json({status : true, message : '' , singleOffer : mainOffer})
         }else {
             res.json({status : false, message : 'Offer not found' })
