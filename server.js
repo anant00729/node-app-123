@@ -249,7 +249,7 @@ app.get('/homeOffers',(req,res) => {
 })
 
 
-app.post('/singleHomeOfferDetails',(req,res) => {
+app.get('/singleHomeOfferDetails',(req,res) => {
 
 
     const offerId = req.body.offerId || 10
@@ -261,6 +261,14 @@ app.post('/singleHomeOfferDetails',(req,res) => {
         
         const mainOffer = catObj.subOffersList.find(offer => offer.id === offerId)
         if(mainOffer){
+            let arrImages = mainOffer.images
+
+            arrImages = shuffle(arrImages)
+
+
+            console.log('arrImages', arrImages)
+
+            
             res.json({status : true, message : '' , singleOffer : mainOffer})
         }else {
             res.json({status : false, message : 'Offer not found' })
@@ -271,6 +279,11 @@ app.post('/singleHomeOfferDetails',(req,res) => {
     }
 })
 
+
+function shuffle(array) {
+    array.sort(() => Math.random() - 0.5);
+    return array
+}
 
 function getRandomInt(min, max) {
     min = Math.ceil(min);
