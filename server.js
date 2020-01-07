@@ -258,7 +258,7 @@ var offer_images = [
 ]
 
 
-app.get('/singleHomeOfferDetails',(req,res) => {
+app.post('/singleHomeOfferDetails',(req,res) => {
 
 
     const offerId = req.body.offerId || 10
