@@ -28,18 +28,21 @@
                 {
                     "id" : 10,
                     "name" : "Smart TV",
-                    "description" : "Up to 40% Off"
+                    "description" : "Up to 40% Off",
+                    "offerType" : "ONLINE"  
                     
                 },
                 {
                     "id" : 11,
                     "name" : "Vistara Sale",
-                    "description" : "Flash Sale"
+                    "description" : "Flash Sale",
+                    "offerType" : "OFFLINE"
                 },
                 {
                     "id" : 12,
                     "name" : "Westside Sale",
-                    "description" : "Up to 80% Off"
+                    "description" : "Up to 80% Off",
+                    "offerType" : "BOTH"
                 }
             ]
 
@@ -51,17 +54,20 @@
                 {
                     "id" : 13,
                     "name" : "COMBO #1",
+                    "offerType" : "OFFLINE",
                     "description" : "Of the week"
                 },
                 {
                     "id" : 14,
                     "name" : "COMBO #2",
-                    "description" : "Flash Sale"
+                    "description" : "Flash Sale",
+                    "offerType" : "ONLINE"
                 },
                 {
                     "id" : 15,
                     "name" : "COMBO #3",
-                    "description" : "Of the week"
+                    "description" : "Of the week",
+                    "offerType" : "BOTH"
                 }
             ]
 
@@ -73,17 +79,20 @@
                 {
                     "id" : 16,
                     "name" : "Westside",
-                    "description" : "New Arrivals"
+                    "description" : "New Arrivals",
+                    "offerType" : "BOTH"
                 },
                 {
                     "id" : 17,
                     "name" : "Chroma",
-                    "description" : "Discount on macbook laptops"
+                    "description" : "Discount on macbook laptops",
+                    "offerType" : "ONLINE"
                 },
                 {
                     "id" : 18,
                     "name" : "Tanishq",
-                    "description" : "Up to 20% Off"
+                    "description" : "Up to 20% Off",
+                    "offerType" : "OFFLINE"
                 }
             ]
 
@@ -95,17 +104,20 @@
                 {
                     "id" : 19,
                     "name" : "Smart TV",
-                    "description" : "Up to 40% Off"
+                    "description" : "Up to 40% Off",
+                    "offerType" : "ONLINE"  
                 },
                 {
                     "id" : 20,
                     "name" : "Vistara Sale",
-                    "description" : "Flash Sale"
+                    "description" : "Flash Sale",
+                    "offerType" : "OFFLINE"
                 },
                 {
                     "id" : 21,
                     "name" : "Westside Sale",
-                    "description" : "Up to 80% Off"
+                    "description" : "Up to 80% Off",
+                    "offerType" : "BOTH"
                 }
             ]
 
@@ -117,17 +129,20 @@
                 {
                     "id" : 22,
                     "name" : "COMBO #1",
+                    "offerType" : "OFFLINE",
                     "description" : "Of the week"
                 },
                 {
                     "id" : 23,
                     "name" : "COMBO #2",
-                    "description" : "Flash Sale"
+                    "description" : "Flash Sale",
+                    "offerType" : "ONLINE"
                 },
                 {
                     "id" : 24,
                     "name" : "COMBO #3",
-                    "description" : "Of the week"
+                    "description" : "Of the week",
+                    "offerType" : "BOTH"
                 }
             ]
 
@@ -139,17 +154,20 @@
                 {
                     "id" : 25,
                     "name" : "Westside",
-                    "description" : "New Arrivals"
+                    "description" : "New Arrivals",
+                    "offerType" : "BOTH"
                 },
                 {
                     "id" : 26,
                     "name" : "Chroma",
-                    "description" : "Discount on macbook laptops"
+                    "description" : "Discount on macbook laptops",
+                    "offerType" : "ONLINE"
                 },
                 {
                     "id" : 27,
                     "name" : "Tanishq",
-                    "description" : "Up to 20% Off"
+                    "description" : "Up to 20% Off",
+                    "offerType" : "OFFLINE"
                 }
             ]
 
@@ -161,17 +179,20 @@
                 {
                     "id" : 28,
                     "name" : "Smart TV",
-                    "description" : "Up to 40% Off"
+                    "description" : "Up to 40% Off",
+                    "offerType" : "ONLINE"  
                 },
                 {
                     "id" : 29,
                     "name" : "Vistara Sale",
-                    "description" : "Flash Sale"
+                    "description" : "Flash Sale",
+                    "offerType" : "OFFLINE"
                 },
                 {
                     "id" : 30,
                     "name" : "Westside Sale",
-                    "description" : "Up to 80% Off"
+                    "description" : "Up to 80% Off",
+                    "offerType" : "BOTH"
                 }
             ]
 
@@ -183,17 +204,20 @@
                 {
                     "id" : 31,
                     "name" : "COMBO #1",
+                    "offerType" : "OFFLINE",
                     "description" : "Of the week"
                 },
                 {
                     "id" : 32,
                     "name" : "COMBO #2",
-                    "description" : "Flash Sale"
+                    "description" : "Flash Sale",
+                    "offerType" : "ONLINE"
                 },
                 {
                     "id" : 33,
                     "name" : "COMBO #3",
-                    "description" : "Of the week"
+                    "description" : "Of the week",
+                    "offerType" : "BOTH"
                 }
             ]
 
@@ -205,17 +229,20 @@
                 {
                     "id" : 34,
                     "name" : "Westside",
-                    "description" : "New Arrivals"
+                    "description" : "New Arrivals",
+                    "offerType" : "BOTH"
                 },
                 {
                     "id" : 35,
                     "name" : "Chroma",
-                    "description" : "Discount on macbook laptops"
+                    "description" : "Discount on macbook laptops",
+                    "offerType" : "ONLINE"
                 },
                 {
                     "id" : 36,
                     "name" : "Tanishq",
-                    "description" : "Up to 20% Off"
+                    "description" : "Up to 20% Off",
+                    "offerType" : "OFFLINE"
                 }
             ]
 
