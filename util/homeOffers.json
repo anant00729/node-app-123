@@ -34,14 +34,14 @@
                 },
                 {
                     "id" : 11,
-                    "name" : "Vistara Sale",
-                    "description" : "Flash Sale",
+                    "name" : "Utsa\nKurta​",
+                    "description" : "Buy 2 Get 1​",
                     "offerType" : "OFFLINE"
                 },
                 {
                     "id" : 12,
-                    "name" : "Westside Sale",
-                    "description" : "Up to 80% Off",
+                    "name" : "Taj Agra\nResort​",
+                    "description" : "5x points​",
                     "offerType" : "OMNI"
                 }
             ]
@@ -53,20 +53,20 @@
             "subOffersList" : [
                 {
                     "id" : 13,
-                    "name" : "COMBO #1",
+                    "name" : "Bluetooth\nSpeakers​",
                     "offerType" : "OFFLINE",
-                    "description" : "Of the week"
+                    "description" : "UP TO 25% OFF​"
                 },
                 {
                     "id" : 14,
-                    "name" : "COMBO #2",
-                    "description" : "Flash Sale",
+                    "name" : "Smart TVs​",
+                    "description" : "UP TP 40% OFF​",
                     "offerType" : "ONLINE"
                 },
                 {
                     "id" : 15,
-                    "name" : "COMBO #3",
-                    "description" : "Of the week",
+                    "name" : "Dell\nLaptop​",
+                    "description" : "FLAT 30% OFF​",
                     "offerType" : "OMNI"
                 }
             ]
@@ -90,156 +90,6 @@
                 },
                 {
                     "id" : 18,
-                    "name" : "Tanishq",
-                    "description" : "Up to 20% Off",
-                    "offerType" : "OFFLINE"
-                }
-            ]
-
-        },
-        {
-            "id" : 100,
-            "name" : "RECOMMENDED",
-            "subOffersList" : [
-                {
-                    "id" : 19,
-                    "name" : "Smart TV",
-                    "description" : "Up to 40% Off",
-                    "offerType" : "ONLINE"  
-                },
-                {
-                    "id" : 20,
-                    "name" : "Vistara Sale",
-                    "description" : "Flash Sale",
-                    "offerType" : "OFFLINE"
-                },
-                {
-                    "id" : 21,
-                    "name" : "Westside Sale",
-                    "description" : "Up to 80% Off",
-                    "offerType" : "OMNI"
-                }
-            ]
-
-        },
-        {
-            "id" : 200,
-            "name" : "TOP DEALS",
-            "subOffersList" : [
-                {
-                    "id" : 22,
-                    "name" : "COMBO #1",
-                    "offerType" : "OFFLINE",
-                    "description" : "Of the week"
-                },
-                {
-                    "id" : 23,
-                    "name" : "COMBO #2",
-                    "description" : "Flash Sale",
-                    "offerType" : "ONLINE"
-                },
-                {
-                    "id" : 24,
-                    "name" : "COMBO #3",
-                    "description" : "Of the week",
-                    "offerType" : "OMNI"
-                }
-            ]
-
-        },
-        {
-            "id" : 100,
-            "name" : "POPULAR",
-            "subOffersList" : [
-                {
-                    "id" : 25,
-                    "name" : "Westside",
-                    "description" : "New Arrivals",
-                    "offerType" : "OMNI"
-                },
-                {
-                    "id" : 26,
-                    "name" : "Chroma",
-                    "description" : "Discount on macbook laptops",
-                    "offerType" : "ONLINE"
-                },
-                {
-                    "id" : 27,
-                    "name" : "Tanishq",
-                    "description" : "Up to 20% Off",
-                    "offerType" : "OFFLINE"
-                }
-            ]
-
-        },
-        {
-            "id" : 100,
-            "name" : "RECOMMENDED",
-            "subOffersList" : [
-                {
-                    "id" : 28,
-                    "name" : "Smart TV",
-                    "description" : "Up to 40% Off",
-                    "offerType" : "ONLINE"  
-                },
-                {
-                    "id" : 29,
-                    "name" : "Vistara Sale",
-                    "description" : "Flash Sale",
-                    "offerType" : "OFFLINE"
-                },
-                {
-                    "id" : 30,
-                    "name" : "Westside Sale",
-                    "description" : "Up to 80% Off",
-                    "offerType" : "OMNI"
-                }
-            ]
-
-        },
-        {
-            "id" : 200,
-            "name" : "TOP DEALS",
-            "subOffersList" : [
-                {
-                    "id" : 31,
-                    "name" : "COMBO #1",
-                    "offerType" : "OFFLINE",
-                    "description" : "Of the week"
-                },
-                {
-                    "id" : 32,
-                    "name" : "COMBO #2",
-                    "description" : "Flash Sale",
-                    "offerType" : "ONLINE"
-                },
-                {
-                    "id" : 33,
-                    "name" : "COMBO #3",
-                    "description" : "Of the week",
-                    "offerType" : "OMNI"
-                }
-            ]
-
-        },
-        {
-            "id" : 100,
-            "name" : "POPULAR",
-            "subOffersList" : [
-                {
-                    "id" : 34,
-                    "name" : "Westside",
-                    "description" : "New Arrivals",
-                    "offerType" : "OMNI"
-                },
-                {
-                    "id" : 35,
-                    "name" : "Chroma",
-                    "description" : "Discount on macbook laptops",
-                    "offerType" : "ONLINE"
-                },
-                {
-                    "id" : 36,
                     "name" : "Tanishq",
                     "description" : "Up to 20% Off",
                     "offerType" : "OFFLINE"
