@@ -1,0 +1,37 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "storeName": "Croma",
+            "storeLat": "12.3",
+            "storeLong": "45.6",
+            "storeDescription": "xyz",
+            "storeAddress": "LBS Road",
+            "storeContactNumber": "0987654321"
+        },
+        {
+            "storeName": "Croma",
+            "storeLat": "12.3",
+            "storeLong": "45.6",
+            "storeDescription": "xyz",
+            "storeAddress": "LBS Road",
+            "storeContactNumber": "0987654321"
+        },
+        {
+            "storeName": "Croma",
+            "storeLat": "12.3",
+            "storeLong": "45.6",
+            "storeDescription": "xyz",
+            "storeAddress": "LBS Road",
+            "storeContactNumber": "0987654321"
+        },
+        {
+            "storeName": "Croma",
+            "storeLat": "12.3",
+            "storeLong": "45.6",
+            "storeDescription": "xyz",
+            "storeAddress": "LBS Road",
+            "storeContactNumber": "0987654321"
+        }
+    ]
+}

@@ -13,6 +13,7 @@ const { performance } = require('perf_hooks')
 
 
 const home_data = require('./util/home2.json')
+const location_data = require('./util/location.json')
 
 const home_offers = require('./util/homeOffers.json')
 
@@ -256,6 +257,11 @@ var offer_images = [
     "https://assets.tatacliq.com/medias/sys_master/managed/17059162947614.jpg",
     "https://assets.tatacliq.com/medias/sys_master/managed/17059163078686.jpg"
 ]
+
+
+app.post('/getLocation', (req,res)=> {
+    res.json(location_data)
+})
 
 
 app.post('/singleHomeOfferDetails',(req,res) => {
