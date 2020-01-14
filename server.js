@@ -16,6 +16,7 @@ const home_data = require('./util/home2.json')
 const location_data = require('./util/location.json')
 
 const home_offers = require('./util/homeOffers.json')
+const offer_details_data = require('./util/offerDetails.json')
 
 
 
@@ -244,6 +245,11 @@ app.get('/test1', async (req,res)=> {
 })
 
 
+
+
+app.post('/offerDetails', (req,res)=>{
+    res.json(offer_details_data)
+})
 
 app.get('/homeOffers',(req,res) => {
     res.json(home_offers)

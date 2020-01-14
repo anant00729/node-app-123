@@ -1,0 +1,21 @@
+{
+    "status": [
+        200
+    ],
+    "data": {
+        "title": "Samrt Tvs",
+        "description": "Discount Upto 40%",
+        "mics": "",
+        "channel": "offline",
+        "imageList": [
+            "https://drive.google.com/uc?id=1Qc1WyF1Q6IO5m7whQbXZat5ls0wHGrBu",
+            "https://drive.google.com/uc?id=1QuVXTkATs5ixRDdc3eVsBvCf3ThMJ9nC    ",
+            "https://drive.google.com/uc?id=1Q9DhyqFD9_jvMhnc_5uprkm52I1cPyGi"
+        ],
+        "shareDetails": {
+            "type": "limited",
+            "shareCount": 5
+        },
+        "termsandconditions": "<p><h3>1. Offer Vaild on booking period: Till 30th Sep'19<br/>2. Offer valid on Travel period: Till 30th Sep'19<br/>3. For any card related claims/issues, the customer shall approach their respective \"Issuing Bank\". Platform shall not entertain any such claims where the card wasn't accepted, or the card was showing invalid.</h3></p>"
+    }
+}
