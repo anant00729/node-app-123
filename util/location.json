@@ -1,34 +1,51 @@
 {
     "status": 200,
+    
     "data": [
         {
             "storeName": "Croma",
-            "storeLat": "18.935467",
-            "storeLong": "72.833251",
+            "storeLat": "18.906439",
+            "storeLong": "72.811567",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "19.074373",
-            "storeLong": "72.867414",
+            "storeLat": "18.905598",
+            "storeLong": "72.811907",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "12.3",
-            "storeLong": "45.6",
+            "storeLat": "18.907567",
+            "storeLong": "72.810779",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "12.3",
-            "storeLong": "45.6",
+            "storeLat": "18.907239",
+            "storeLong": "72.812983",
+            "storeDescription": "xyz",
+            "storeAddress": "LBS Road",
+            "storeContactNumber": "0987654321"
+        },
+        {
+            "storeName": "Croma",
+            "storeLat": "18.905550",
+            "storeLong": "72.813569",
+            "storeDescription": "xyz",
+            "storeAddress": "LBS Road",
+            "storeContactNumber": "0987654321"
+        },
+        {
+            "storeName": "Croma",
+            "storeLat": "18.904320",
+            "storeLong": "72.811133",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
