@@ -3,16 +3,16 @@
     "data": [
         {
             "storeName": "Croma",
-            "storeLat": "12.3",
-            "storeLong": "45.6",
+            "storeLat": "18.935467",
+            "storeLong": "72.833251",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "12.3",
-            "storeLong": "45.6",
+            "storeLat": "19.074373",
+            "storeLong": "72.867414",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
