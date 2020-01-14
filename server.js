@@ -17,6 +17,9 @@ const location_data = require('./util/location.json')
 
 const home_offers = require('./util/homeOffers.json')
 const offer_details_data = require('./util/offerDetails.json')
+const collectedOffersList = require('./util/collectedOffersList.json')
+
+
 
 
 
@@ -269,6 +272,10 @@ app.post('/getLocation', (req,res)=> {
     res.json(location_data)
 })
 
+
+app.get('/collectedofferList', (req,res)=> {
+    res.json(collectedOffersList)
+})
 
 app.post('/singleHomeOfferDetails',(req,res) => {
 

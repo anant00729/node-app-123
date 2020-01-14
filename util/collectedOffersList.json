@@ -1,0 +1,39 @@
+{
+    "status": [
+        200
+    ],
+    "data": [
+        {
+            "title": "Samrt Tvs",
+            "description": "Discount Upto 40%",
+            "mics": "",
+            "activationtype": "collected",
+            "image": "https://images.samsung.com/is/image/samsung/p5/in/microsite/smart-tv/overview/section-06-guide-sep.png",
+            "remainingtime": "18 days 5 hours"
+        },
+        {
+            "title": "Moblies",
+            "description": "Discount Upto 30%",
+            "mics": "",
+            "activationtype": "collected",
+            "image": "https://www.themobileindian.com/public/thumbs/news/2020/01/29336/OPPO-R15-Pro-INDIA_425_735_425_735.jpg",
+            "remainingtime": "7 days 5 hours"
+        },
+        {
+            "title": "Kitchen Accessories",
+            "description": "Discount Upto 70%",
+            "mics": "",
+            "activationtype": "collected",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51sGGGMba3L.jpg",
+            "remainingtime": "3 days 5 hours"
+        },
+        {
+            "title": "Samsung Fridges",
+            "description": "Discount Upto 20%",
+            "mics": "",
+            "activationtype": "Auto Applied",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71dPg1Ki0AL._SY879_.jpg",
+            "remainingtime": "Till 7 pm"
+        }
+    ]
+}
