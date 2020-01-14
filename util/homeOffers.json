@@ -29,20 +29,20 @@
                     "id" : 10,
                     "name" : "Smart TV",
                     "description" : "Up to 40% Off",
-                    "offerType" : "ONLINE"  
+                    "offerType" : "online"  
                     
                 },
                 {
                     "id" : 11,
                     "name" : "Utsa\nKurta​",
                     "description" : "Buy 2 Get 1​",
-                    "offerType" : "OFFLINE"
+                    "offerType" : "offline"
                 },
                 {
                     "id" : 12,
                     "name" : "Taj Agra\nResort​",
                     "description" : "5x points​",
-                    "offerType" : "OMNI"
+                    "offerType" : "omni"
                 }
             ]
 
@@ -54,20 +54,20 @@
                 {
                     "id" : 13,
                     "name" : "Bluetooth\nSpeakers​",
-                    "offerType" : "OFFLINE",
+                    "offerType" : "offline",
                     "description" : "UP TO 25% OFF​"
                 },
                 {
                     "id" : 14,
                     "name" : "Smart TVs​",
                     "description" : "UP TP 40% OFF​",
-                    "offerType" : "ONLINE"
+                    "offerType" : "online"
                 },
                 {
                     "id" : 15,
                     "name" : "Dell\nLaptop​",
                     "description" : "FLAT 30% OFF​",
-                    "offerType" : "OMNI"
+                    "offerType" : "omni"
                 }
             ]
 
@@ -80,19 +80,19 @@
                     "id" : 16,
                     "name" : "Westside",
                     "description" : "New Arrivals",
-                    "offerType" : "OMNI"
+                    "offerType" : "omni"
                 },
                 {
                     "id" : 17,
                     "name" : "Chroma",
                     "description" : "Discount on macbook laptops",
-                    "offerType" : "ONLINE"
+                    "offerType" : "online"
                 },
                 {
                     "id" : 18,
                     "name" : "Tanishq",
                     "description" : "Up to 20% Off",
-                    "offerType" : "OFFLINE"
+                    "offerType" : "offline"
                 }
             ]
 
