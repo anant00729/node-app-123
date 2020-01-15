@@ -326,16 +326,27 @@ app.get('/bubbleSort', (req,res)=> {
 
     let inputData = [64, 34, 25, 12, 22, 11, 90]
 
-    let lastIndex = inputData.length -1
+    let lastIndex = inputData.length
+
+    let temp = -1
+
 
     for(let i = 0; i < lastIndex ; ++i){
-        for(let j = 0; j < i - (lastIndex + 1)  ; ++j){
+        
+        for(let j = 0; j < lastIndex - (i + 1); ++j){
+            if(i == 0){
+                if(inputData[j] > inputData[j+1]){
+                    temp = inputData[j]
+                    inputData[j] = inputData[j+1]
+                    inputData[j+1] = temp
+                }
+            }
             
         }
     }
 
 
-    res.json({Status : true, Message : ''})
+    res.json({Status : true, Message : '', sortedData : inputData})
 })
 
 

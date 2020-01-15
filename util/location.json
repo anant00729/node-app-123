@@ -1,51 +1,53 @@
 {
     "status": 200,
+
+
     
     "data": [
         {
             "storeName": "Croma Phoenix Marketcity Kurla, Mumbai",
-            "storeLat": "18.906439",
-            "storeLong": "72.811567",
+            "storeLat": "18.911459",
+            "storeLong": "72.807107",
             "storeDescription": "UG - 41, 42, LBS Rd · In Phoenix Marketcity",
             "storeAddress": "Mumbai​",
             "storeContactNumber": "07207666000"
         },
         {
             "storeName": "Croma Churchgate, Mumbai​",
-            "storeLat": "18.905598",
-            "storeLong": "72.811907",
+            "storeLat": "18.906645",
+            "storeLong": "72.808573",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "18.907567",
-            "storeLong": "72.810779",
+            "storeLat": "18.900300",
+            "storeLong": "72.808178",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "18.907239",
-            "storeLong": "72.812983",
+            "storeLat": "18.902865",
+            "storeLong": "72.811411",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "18.905550",
-            "storeLong": "72.813569",
+            "storeLat": "18.907604",
+            "storeLong": "72.811152",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
             "storeName": "Croma",
-            "storeLat": "18.904320",
-            "storeLong": "72.811133",
+            "storeLat": "18.905147",
+            "storeLong": "72.812399",
             "storeDescription": "xyz",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
