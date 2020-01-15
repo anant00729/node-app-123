@@ -4,19 +4,23 @@
     "topOffers" : [
         {
             "id" : 1,
-            "name" : "My Offers"
+            "name" : "My Offers",
+            "image" : "http://i.imgur.com/0xnrBd4.jpg"
         },
         {
             "id" : 2,
-            "name" : "Near You"
+            "name" : "Near You",
+            "image" : "http://i.imgur.com/Yj6gLh8.jpg"
         },
         {
             "id" : 3,
-            "name" : "Best Discount"
+            "name" : "Best Discount",
+            "image" : "http://i.imgur.com/f8FOOUb.jpg"
         },
         {
             "id" : 4,
-            "name" : "Cashback"
+            "name" : "Cashback",
+            "image" : "http://i.imgur.com/Jpney38.jpg"
         }
     ],
 
@@ -42,7 +46,7 @@
                 },
                 {
                     "id" : 12,
-                    "image" : "http://i.imgur.com/t3NZ9q6.jpg",
+                    "image" : "http://i.imgur.com/E9SR15V.jpg",
                     "name" : "Utsa\nKurta​",
                     "description" : "5x points​",
                     "offerType" : "omni"
@@ -56,7 +60,7 @@
             "subOffersList" : [
                 {
                     "id" : 13,
-                    "image" : "http://i.imgur.com/6JQszjn.jpg",
+                    "image" : "http://i.imgur.com/BbYbnOo.jpg",
                     "name" : "Bluetooth\nHeadphone​",
                     "offerType" : "online",
                     "description" : "UP TO 25% OFF​"
@@ -70,7 +74,7 @@
                 },
                 {
                     "id" : 15,
-                    "image" : "http://i.imgur.com/E03jHF2.jpg",
+                    "image" : "http://i.imgur.com/2YeffJP.jpg",
                     "name" : "Dell\nLaptop​",
                     "description" : "FLAT 30% OFF​",
                     "offerType" : "omni"
