@@ -30,7 +30,7 @@
                     "image" : "http://i.imgur.com/yv9Qjhir.jpg",
                     "name" : "Smart\nTVs​",
                     "description" : "Up to 40% Off",
-                    "offerType" : "online"  
+                    "offerType" : "offline"  
                     
                 },
                 {
@@ -38,7 +38,7 @@
                     "image" : "https://i.imgur.com/OXKV1vL.jpg",
                     "name" : "Taj Mahal\nPalace​",
                     "description" : "Buy 2 Get 1​",
-                    "offerType" : "offline"
+                    "offerType" : "online"
                 },
                 {
                     "id" : 12,
@@ -58,7 +58,7 @@
                     "id" : 13,
                     "image" : "http://i.imgur.com/6JQszjn.jpg",
                     "name" : "Bluetooth\nHeadphone​",
-                    "offerType" : "offline",
+                    "offerType" : "online",
                     "description" : "UP TO 25% OFF​"
                 },
                 {
@@ -66,7 +66,7 @@
                     "image" : "http://i.imgur.com/yv9Qjhir.jpg",
                     "name" : "Smart\nTVs​",
                     "description" : "UP TP 40% OFF​",
-                    "offerType" : "online"
+                    "offerType" : "offline"
                 },
                 {
                     "id" : 15,
