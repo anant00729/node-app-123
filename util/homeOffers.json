@@ -30,7 +30,7 @@
             "name" : "RECOMMENDED",
             "subOffersList" : [
                 {
-                    "id" : 10,
+                    "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
                     "image" : "http://i.imgur.com/yv9Qjhir.jpg",
                     "name" : "Smart\nTVs​",
                     "description" : "Up to 40% Off",
@@ -38,14 +38,14 @@
                     
                 },
                 {
-                    "id" : 11,
+                    "id" : "d21ed022-b54b-4657-8b17-9da124a06b0c",
                     "image" : "https://i.imgur.com/OXKV1vL.jpg",
                     "name" : "Taj Mahal\nPalace​",
                     "description" : "Buy 2 Get 1​",
                     "offerType" : "online"
                 },
                 {
-                    "id" : 12,
+                    "id" : "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
                     "image" : "http://i.imgur.com/E9SR15V.jpg",
                     "name" : "Utsa\nKurta​",
                     "description" : "5x points​",
@@ -59,21 +59,21 @@
             "name" : "TOP DEALS",
             "subOffersList" : [
                 {
-                    "id" : 13,
+                    "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
                     "image" : "http://i.imgur.com/BbYbnOo.jpg",
                     "name" : "Bluetooth\nHeadphone​",
                     "offerType" : "online",
                     "description" : "UP TO 25% OFF​"
                 },
                 {
-                    "id" : 14,
+                    "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
                     "image" : "http://i.imgur.com/yv9Qjhir.jpg",
                     "name" : "Smart\nTVs​",
                     "description" : "UP TP 40% OFF​",
                     "offerType" : "offline"
                 },
                 {
-                    "id" : 15,
+                    "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
                     "image" : "http://i.imgur.com/2YeffJP.jpg",
                     "name" : "Dell\nLaptop​",
                     "description" : "FLAT 30% OFF​",

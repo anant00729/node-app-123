@@ -322,6 +322,23 @@ function getRandomInt(min, max) {
 }
 
 
+app.get('/bubbleSort', (req,res)=> {
+
+    let inputData = [64, 34, 25, 12, 22, 11, 90]
+
+    let lastIndex = inputData.length -1
+
+    for(let i = 0; i < lastIndex ; ++i){
+        for(let j = 0; j < i - (lastIndex + 1)  ; ++j){
+            
+        }
+    }
+
+
+    res.json({Status : true, Message : ''})
+})
+
+
 // app.use(express.static('public/build'));
 // app.use(express.static('public'));
 
