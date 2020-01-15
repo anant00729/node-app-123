@@ -35,14 +35,14 @@
                 },
                 {
                     "id" : 11,
-                    "image" : "https://imgur.com/OXKV1vL",
+                    "image" : "https://i.imgur.com/OXKV1vL.jpg",
                     "name" : "Taj Mahal\nPalace​",
                     "description" : "Buy 2 Get 1​",
                     "offerType" : "offline"
                 },
                 {
                     "id" : 12,
-                    "image" : "https://imgur.com/t3NZ9q6",
+                    "image" : "http://i.imgur.com/t3NZ9q6.jpg",
                     "name" : "Utsa\nKurta​",
                     "description" : "5x points​",
                     "offerType" : "omni"
@@ -56,21 +56,21 @@
             "subOffersList" : [
                 {
                     "id" : 13,
-                    "image" : "https://imgur.com/6JQszjn",
+                    "image" : "http://i.imgur.com/6JQszjn.jpg",
                     "name" : "Bluetooth\nHeadphone​",
                     "offerType" : "offline",
                     "description" : "UP TO 25% OFF​"
                 },
                 {
                     "id" : 14,
-                    "image" : "https://imgur.com/yv9Qjhi",
+                    "image" : "http://i.imgur.com/yv9Qjhir.jpg",
                     "name" : "Smart\nTVs​",
                     "description" : "UP TP 40% OFF​",
                     "offerType" : "online"
                 },
                 {
                     "id" : 15,
-                    "image" : "https://imgur.com/E03jHF2",
+                    "image" : "http://i.imgur.com/E03jHF2.jpg",
                     "name" : "Dell\nLaptop​",
                     "description" : "FLAT 30% OFF​",
                     "offerType" : "omni"
