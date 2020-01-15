@@ -292,7 +292,7 @@ app.post('/singleHomeOfferDetails',(req,res) => {
             let arrImages = [...offer_images]
 
 
-            mainOffer.tnc = `<div><h2><strong>Terms and Conditions</strong></h2><ol style="list-style: decimal;padding-left: 12px;"><li>Valid on booking period: Till 30th Jan 20</li><li>Valid on travel period: Till 30th Jan 20</li><li>For any card related claims/issues, the customer shall approach their respective \"Issuing Bank\". Platform shall not entertain any such claims where the card wasn't accepted, or the card was showing invalid.</li></ol></div>`
+            mainOffer.tnc = `<div><h2><strong>Terms and Conditions</strong></h2><ol style="list-style: bullet;padding-left: 12px;"><li>Valid on booking period: Till 30th Jan 20</li><li>Valid on travel period: Till 30th Jan 20</li><li>For any card related claims/issues, the customer shall approach their respective \"Issuing Bank\". Platform shall not entertain any such claims where the card wasn't accepted, or the card was showing invalid.</li></ol></div>`
             arrImages = shuffle(arrImages)
             if(arrImages.length === 5){
                 arrImages.splice(arrImages.length - 2, 2)

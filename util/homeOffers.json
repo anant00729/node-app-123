@@ -27,20 +27,23 @@
             "subOffersList" : [
                 {
                     "id" : 10,
-                    "name" : "Smart TV",
+                    "image" : "https://imgur.com/yv9Qjhi",
+                    "name" : "Smart\nTVs​",
                     "description" : "Up to 40% Off",
                     "offerType" : "online"  
                     
                 },
                 {
                     "id" : 11,
-                    "name" : "Utsa\nKurta​",
+                    "image" : "https://imgur.com/OXKV1vL",
+                    "name" : "Taj Mahal\nPalace​",
                     "description" : "Buy 2 Get 1​",
                     "offerType" : "offline"
                 },
                 {
                     "id" : 12,
-                    "name" : "Taj Agra\nResort​",
+                    "image" : "https://imgur.com/t3NZ9q6",
+                    "name" : "Utsa\nKurta​",
                     "description" : "5x points​",
                     "offerType" : "omni"
                 }
@@ -53,46 +56,24 @@
             "subOffersList" : [
                 {
                     "id" : 13,
-                    "name" : "Bluetooth\nSpeakers​",
+                    "image" : "https://imgur.com/6JQszjn",
+                    "name" : "Bluetooth\nHeadphone​",
                     "offerType" : "offline",
                     "description" : "UP TO 25% OFF​"
                 },
                 {
                     "id" : 14,
-                    "name" : "Smart TVs​",
+                    "image" : "https://imgur.com/yv9Qjhi",
+                    "name" : "Smart\nTVs​",
                     "description" : "UP TP 40% OFF​",
                     "offerType" : "online"
                 },
                 {
                     "id" : 15,
+                    "image" : "https://imgur.com/E03jHF2",
                     "name" : "Dell\nLaptop​",
                     "description" : "FLAT 30% OFF​",
                     "offerType" : "omni"
-                }
-            ]
-
-        },
-        {
-            "id" : 100,
-            "name" : "POPULAR",
-            "subOffersList" : [
-                {
-                    "id" : 16,
-                    "name" : "Westside",
-                    "description" : "New Arrivals",
-                    "offerType" : "omni"
-                },
-                {
-                    "id" : 17,
-                    "name" : "Chroma",
-                    "description" : "Discount on macbook laptops",
-                    "offerType" : "online"
-                },
-                {
-                    "id" : 18,
-                    "name" : "Tanishq",
-                    "description" : "Up to 20% Off",
-                    "offerType" : "offline"
                 }
             ]
 
