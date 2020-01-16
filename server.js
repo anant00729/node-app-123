@@ -250,7 +250,7 @@ app.get('/test1', async (req,res)=> {
 
 
 
-app.post('/offerDetails', (req,res)=>{
+app.post('/offerdetails', (req,res)=>{
     res.json(offer_details_data)
 })
 
