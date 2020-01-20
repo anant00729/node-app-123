@@ -73,9 +73,6 @@ const PORT = process.env.PORT || 3001
 
 
 
-app.get('/getAllUsers', (req,res)=>{
-    res.json(testDummyUsers)
-})
 
 const MOV_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=578152be1392218f6d775ceb67b4e4f6&language=en-US&page="
 
@@ -380,6 +377,9 @@ app.get('/bubbleSort', (req,res)=> {
 
 
 
+app.get('/getAllUsers', (req,res)=>{
+    res.json(testDummyUsers)
+})
 
 
 
