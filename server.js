@@ -7,6 +7,8 @@ const request = require('request')
 const http = require('http') 
 const fetch = require('node-fetch');
 const async = require('async')
+
+
 const { performance } = require('perf_hooks')
 
 
@@ -18,6 +20,7 @@ const location_data = require('./util/location.json')
 const home_offers = require('./util/homeOffers.json')
 const offer_details_data = require('./util/offerDetails.json')
 const collectedOffersList = require('./util/collectedOffersList.json')
+const testDummyUsers = require('./util/testDummyUsers.json')
 
 
 
@@ -54,6 +57,8 @@ app.use('/api/quiz' , require('./routes/quiz'))
 const PORT = process.env.PORT || 3001
 
 
+
+
 // app.get('/', (req,res)=> {
 //     res.json({Hellloe : "helo all"})
 // })
@@ -66,6 +71,11 @@ const PORT = process.env.PORT || 3001
 //app.use(express.static(path.join(__dirname, 'public/build')));
 // Set static folder
 
+
+
+app.get('/getAllUsers', (req,res)=>{
+    res.json(testDummyUsers)
+})
 
 const MOV_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=578152be1392218f6d775ceb67b4e4f6&language=en-US&page="
 
