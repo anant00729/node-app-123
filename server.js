@@ -18,7 +18,7 @@ const home_data = require('./util/home2.json')
 const location_data = require('./util/location.json')
 
 const home_offers = require('./util/homeOffers.json')
-const offer_details_data = require('./util/offerDetails.json')
+
 const collectedOffersList = require('./util/collectedOffersList.json')
 const testDummyUsers = require('./util/testDummyUsers.json')
 
@@ -255,49 +255,21 @@ app.get('/test1', async (req,res)=> {
 })
 
 
-
+const offerOnline = require('./util/offerDetailsOnline.json')
+const offerOmni = require('./util/offerDetailsOmni.json')
+const offerOffline = require('./util/offerDetailsOffine.json')
 
 app.post('/offerdetails', (req,res)=>{
 
-
-    // "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
-    //                 "image" : "http://i.imgur.com/yv9Qjhir.jpg",
-    //                 "name" : "Smart\nTVs​",
-    //                 "description" : "Up to 40% Off",
-    //                 "offerType" : "offline"  
-                    
-    //             },
-    //             {
-    //                 "id" : "d21ed022-b54b-4657-8b17-9da124a06b0c",
-    //                 "image" : "https://i.imgur.com/OXKV1vL.jpg",
-    //                 "name" : "Taj Mahal\nPalace​",
-    //                 "description" : "Get 10x points on stay​",
-    //                 "offerType" : "online"
-    //             },
-    //             {
-    //                 "id" : "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
-    //                 "image" : "http://i.imgur.com/E9SR15V.jpg",
-    //                 "name" : "Utsa\nKurta​",
-    //                 "description" : "Buy 2 Get 1​",
-    //                 "offerType" : "omni"
-
-
-
     const offerId = req.body.offerId
 
-
     if(offerId === '586137cd-828f-4f3c-9afc-1b618c090ed6'){
-        offer_details_data.data.channel = "offline"
-        res.json(offer_details_data)
+        res.json(offerOffline)
     }else if(offerId === 'd21ed022-b54b-4657-8b17-9da124a06b0c'){
-        offer_details_data.data.channel = "online"
-        res.json(offer_details_data)
+        res.json(offerOnline)
     }else {
-        offer_details_data.data.channel = "omni"
-        res.json(offer_details_data)
+        res.json(offerOmni)
     }
-
-
     
 })
 
