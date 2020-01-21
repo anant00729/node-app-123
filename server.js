@@ -79,7 +79,7 @@ const PORT = process.env.PORT || 3001
 
 const MOV_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=578152be1392218f6d775ceb67b4e4f6&language=en-US&page="
 
-app.get('/test', async (req,res)=> {
+app.get('/getAllMovies', async (req,res)=> {
     try {
 
         var t0 = performance.now();
