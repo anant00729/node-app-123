@@ -168,6 +168,41 @@ app.get('/getAllMovies', async (req,res)=> {
 
 
 
+app.get('/getAllMoviesForHomePage', async (req,res)=> {
+    try {
+
+        var t0 = performance.now();  
+        let arrPromise = []
+
+
+        
+
+        for(let k = 0 ; k < 5 ; k++){
+            var _promise = new Promise(async(resolve, reject)=> {
+                const data = await fetch(`${MOV_URL}${k+1}`)
+                const response = await data.json()
+                resolve(response)
+            });
+            arrPromise.push(_promise)
+        }
+
+        let allMovies = []
+
+        Promise.all(arrPromise).then(function(values) {
+
+            for(v of values){
+                allMovies.push(...v.results)
+            }
+
+            res.json({status : true , allMovies})
+
+        })
+    }catch(error){
+        res.json({status : false , Message : `${error}`})
+    }
+})
+
+
 app.get('/test1', async (req,res)=> {
     try {
 
