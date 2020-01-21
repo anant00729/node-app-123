@@ -14,12 +14,15 @@ const { performance } = require('perf_hooks')
 
 
 
+
+
+
 const home_data = require('./util/home2.json')
 const location_data = require('./util/location.json')
 
 const home_offers = require('./util/homeOffers.json')
 
-const collectedOffersList = require('./util/collectedOffersList.json')
+const collectedOffersList = require('./util/collectOfferNew.json')
 const testDummyUsers = require('./util/testDummyUsers.json')
 
 
