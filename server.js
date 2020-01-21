@@ -191,7 +191,13 @@ app.get('/getAllMoviesForHomePage', async (req,res)=> {
         Promise.all(arrPromise).then(function(values) {
 
             for(v of values){
-                allMovies.push(...v.results)
+
+
+                for(mov of v.results){
+                    mov.poster_path = `http://image.tmdb.org/t/p/w400${mov.poster_path}`
+                    mov.backdrop_path = `http://image.tmdb.org/t/p/w400${mov.backdrop_path}`
+                    allMovies.push(mov)
+                }
             }
 
             res.json({status : true , allMovies})
