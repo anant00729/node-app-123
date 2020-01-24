@@ -21,15 +21,15 @@
             "storeContactNumber": "0987654321"
         },
         {
-            "storeName": "Croma",
+            "storeName": "Navy Nagar",
             "storeLat": "18.900300",
             "storeLong": "72.808178",
-            "storeDescription": "xyz",
+            "storeDescription": "UG - 41, 42, LBS Rd · In Phoenix Marketcity",
             "storeAddress": "LBS Road",
             "storeContactNumber": "0987654321"
         },
         {
-            "storeName": "Croma",
+            "storeName": "THE WISDOMS",
             "storeLat": "18.902865",
             "storeLong": "72.811411",
             "storeDescription": "xyz",
@@ -37,7 +37,7 @@
             "storeContactNumber": "0987654321"
         },
         {
-            "storeName": "Croma",
+            "storeName": "Asha Complex",
             "storeLat": "18.907604",
             "storeLong": "72.811152",
             "storeDescription": "xyz",
@@ -45,11 +45,11 @@
             "storeContactNumber": "0987654321"
         },
         {
-            "storeName": "Croma",
+            "storeName": "Kala Ghoda Cafe",
             "storeLat": "18.905147",
             "storeLong": "72.812399",
             "storeDescription": "xyz",
-            "storeAddress": "LBS Road",
+            "storeAddress": "Coffee, baked goods, wines & light bites prepared in a modern, artistically minded cafe & gallery.",
             "storeContactNumber": "0987654321"
         }
     ]
