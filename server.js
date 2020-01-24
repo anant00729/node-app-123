@@ -21,6 +21,7 @@ const home_data = require('./util/home2.json')
 const location_data = require('./util/location.json')
 
 const home_offers = require('./util/home/homeOffers.json')
+const home_offers_ios = require('./util/home/homeOffersiOS.json')
 
 const collectedOffersList = require('./util/collectOfferNew.json')
 const testDummyUsers = require('./util/testDummyUsers.json')
@@ -77,6 +78,11 @@ const PORT = process.env.PORT || 3001
 
 //app.use(express.static(path.join(__dirname, 'public/build')));
 // Set static folder
+
+
+app.get('/homeOfferios', (req,res)=> {
+    res.json(home_offers_ios)
+})
 
 
 
