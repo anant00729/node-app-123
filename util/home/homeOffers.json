@@ -5,22 +5,22 @@
         {
             "id" : 1,
             "name" : "My Offers",
-            "image" : "http://i.imgur.com/0xnrBd4.jpg"
+            "image" : "https://i.imgur.com/0xnrBd4.jpg"
         },
         {
             "id" : 2,
             "name" : "Near You",
-            "image" : "http://i.imgur.com/Yj6gLh8.jpg"
+            "image" : "https://i.imgur.com/Yj6gLh8.jpg"
         },
         {
             "id" : 3,
             "name" : "Best Discount",
-            "image" : "http://i.imgur.com/f8FOOUb.jpg"
+            "image" : "https://i.imgur.com/f8FOOUb.jpg"
         },
         {
             "id" : 4,
             "name" : "Cashback",
-            "image" : "http://i.imgur.com/Jpney38.jpg"
+            "image" : "https://i.imgur.com/Jpney38.jpg"
         }
     ],
 
@@ -31,7 +31,7 @@
             "subOffersList" : [
                 {
                     "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
-                    "image" : "https://i.imgur.com/OXKV1vL.jpg",
+                    "image" : "https://i.imgur.com/yv9Qjhir.jpg",
                     "name" : "Smart\nTVs​",
                     "description" : "Up to 40% Off",
                     "offerType" : "offline"  
@@ -46,7 +46,7 @@
                 },
                 {
                     "id" : "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
-                    "image" : "http://i.imgur.com/E9SR15V.jpg",
+                    "image" : "https://i.imgur.com/E9SR15V.jpg",
                     "name" : "Utsa\nKurta​",
                     "description" : "Buy 2 Get 1​",
                     "offerType" : "omni"
@@ -60,21 +60,21 @@
             "subOffersList" : [
                 {
                     "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
-                    "image" : "http://i.imgur.com/BbYbnOo.jpg",
+                    "image" : "https://i.imgur.com/BbYbnOo.jpg",
                     "name" : "Bluetooth\nHeadphone​",
                     "offerType" : "online",
                     "description" : "UP TO 25% OFF​"
                 },
                 {
                     "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
-                    "image" : "http://i.imgur.com/yv9Qjhir.jpg",
+                    "image" : "https://i.imgur.com/yv9Qjhir.jpg",
                     "name" : "Smart\nTVs​",
                     "description" : "UP TP 40% OFF​",
                     "offerType" : "offline"
                 },
                 {
                     "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
-                    "image" : "http://i.imgur.com/2YeffJP.jpg",
+                    "image" : "https://i.imgur.com/2YeffJP.jpg",
                     "name" : "Dell\nLaptop​",
                     "description" : "FLAT 30% OFF​",
                     "offerType" : "omni"
