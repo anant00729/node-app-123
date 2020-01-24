@@ -20,7 +20,7 @@ const { performance } = require('perf_hooks')
 const home_data = require('./util/home2.json')
 const location_data = require('./util/location.json')
 
-const home_offers = require('./util/homeOffers.json')
+const home_offers = require('./util/home/homeOffers.json')
 
 const collectedOffersList = require('./util/collectOfferNew.json')
 const testDummyUsers = require('./util/testDummyUsers.json')
@@ -34,8 +34,12 @@ const testDummyUsers = require('./util/testDummyUsers.json')
 
 // Test DB 
 db.authenticate()
-.then(()=> console.log('connected to the database'))
-.catch((err)=> console.log('faild to connect', err.message))
+.then(()=> {
+    console.log('connected to the database')
+})
+.catch((err)=> {
+    console.log('faild to connect', err.message)
+})
 
 
 
@@ -425,6 +429,8 @@ app.get('/bubbleSort', (req,res)=> {
 //     res.sendFile(path.resolve(__dirname, 'public', 'build', 'index.html'))
 //     //res.sendFile(path.resolve(__dirname, 'public/build', 'index.html'))
 // })
+
+
 
 
 

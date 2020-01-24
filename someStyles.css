@@ -1,0 +1,76 @@
+.mobile-wrapper-width{
+    width: 100%;
+}
+
+.center-abs-h{
+    left: 40%;
+}
+
+.back-container{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.back-container2{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+
+
+
+.ripple {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(0);
+    position: absolute;
+    opacity: 1;
+}
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+  
+@keyframes rippleDrop {
+100% {
+    transform: scale(2);
+    opacity: 0;
+}
+}
+
+
+.hor-list::-webkit-scrollbar { 
+    width: 4px;
+    height: 3px;
+  }
+  
+  .app-line-height{
+    height: 1px;
+  }
+  
+  
+  .hor-list::-webkit-scrollbar-thumb{
+    background: linear-gradient(to right,#da1b60,#ff8a00);
+    border-radius: 10px;
+  }
+  
+  
+  .hor-list::-webkit-scrollbar-track{
+    background: linear-gradient(to right,#201c29,#201c29 1px,#17141d 1px,#17141d);
+  }
+  
+  .hor-list-nobar::-webkit-scrollbar{
+    display: none;
+  }
+
+.image-overlay{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+

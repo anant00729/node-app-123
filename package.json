@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "post-build": "NPM CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "debugg": "nodemon --inspect server.js",
     "b_debugg": "nodemon --inspect-brk server.js"
   },
