@@ -1,0 +1,39 @@
+{
+    "status": [
+        200
+    ],
+    "data": [
+        {
+            "id": "d21ed022-b54b-4657-8b17-9da124a06b0F",
+            "title": "Taj Goa",
+            "description": "10x points",
+            "mics": "",
+            "channel": "Offline",
+            "activationtype": "Collected",
+            "image": "http://192.168.104.53:9999/tatadigital/img/Taj%20Goa%20-%20Used.jpg",
+            "remainingtime": "1 days",
+            "redeemat": "Taj Fort Aguada, Goa",
+            "totalsavings": "5000 rs",
+            "sharedetails": {
+                "type": "exclusive",
+                "shareCount": 0
+            }
+        },
+        {
+            "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
+            "title": "Tata Sky UHD setup box",
+            "description": "FLAT 500rs CB",
+            "mics": "",
+            "activationtype": "Collected",
+            "channel": "online",
+            "redeemat": "tcp app",
+            "totalsavings": "500 rs",
+            "image": "http://192.168.104.53:9999/tatadigital/img/Tata%20sky%20UHD%20setup%20box%20-%20used.png",
+            "remainingtime": " 5 hours",
+            "sharedetails": {
+                "type": "limited",
+                "shareCount": 5
+            }
+        }
+    ]
+}

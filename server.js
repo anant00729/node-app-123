@@ -15,7 +15,9 @@ const { performance } = require('perf_hooks')
 
 
 
-
+const collectedOffers = require('./util/collected/collected.json')
+const usedOffers = require('./util/collected/used.json')
+const expiredOffers = require('./util/collected/expired.json')
 
 const home_data = require('./util/home2.json')
 const location_data = require('./util/location.json')
@@ -78,6 +80,10 @@ const PORT = process.env.PORT || 3001
 
 //app.use(express.static(path.join(__dirname, 'public/build')));
 // Set static folder
+
+
+
+
 
 
 app.get('/homeOfferios', (req,res)=> {
@@ -438,15 +444,23 @@ app.get('/bubbleSort', (req,res)=> {
 
 
 
-
-
-
-
-
-
-
 app.get('/getAllUsers', (req,res)=>{
     res.json(testDummyUsers)
+})
+
+
+app.get('/myofferslist', (req,res)=> {
+    let status = req.query.status  
+
+    if(status === 'used'){
+        res.json(usedOffers)
+    }else if(status === 'expired'){
+        res.json(expiredOffers)
+    }else {
+        res.json(collectedOffers)
+    }
+
+
 })
 
 

@@ -1,0 +1,49 @@
+{
+    "status": [
+        200
+    ],
+    "data": [
+        {
+            "id": "586137cd-828f-4f3c-9afc-1b618c090ed7",
+            "title": "Smart Tvs",
+            "description": "Discount Upto 40%",
+            "mics": "",
+            "channel": "offline",
+            "activationtype": "Auto-applied",
+            "image": "http://192.168.104.53:9999/tatadigital/img/Smart%20TV%20-%20Collected.jpg",
+            "remainingtime": "5 hours",
+            "shareDetails": {
+                "type": "limited",
+                "shareCount": 4
+            }
+        },
+        {
+            "id": "586137cd-828f-4f3c-9afc-1b628c050ed6",
+            "title": "Boss Speaker",
+            "description": "FLAT 20% OFF",
+            "mics": "",
+            "channel": "offline",
+            "activationtype": "Auto-applied",
+            "image": "http://192.168.104.53:9999/tatadigital/img/Boss%20Speakers%20-%20Collected.jpg",
+            "remainingtime": "7I  hours",
+            "shareDetails": {
+                "type": "limited",
+                "shareCount": 5
+            }
+        },
+        {
+            "id": "586137cd-828f-4f3c-9afc-1b428c090ed6",
+            "title": "Nuon Shirt",
+            "description": "BUY 2 GET 1",
+            "mics": "",
+            "channel": "offline",
+            "activationtype": "Auto-applied",
+            "image": "http://192.168.104.53:9999/tatadigital/img/Nuon%20Shirt%20-%20collected.jpg",
+            "remainingtime": "20 days",
+            "shareDetails": {
+                "type": "exclusive",
+                "shareCount": 0
+            }
+        }
+    ]
+}
