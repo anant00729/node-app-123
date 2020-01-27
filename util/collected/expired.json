@@ -11,7 +11,8 @@
             "activationtype": "Auto-applied",
             "channel": "Offline",
             "image": "https://i.imgur.com/2YeffJP.jpg",
-            "offerDuration": "Valid from 00:00 hours 01-Jan-2020 to 23:59 hours 11-Jan-2020"
+            "offerDuration": "Valid from 00:00 hours 01-Jan-2020 to 23:59 hours 11-Jan-2020",
+            "offerstatus" : "expired"
         }
     ]
 }
