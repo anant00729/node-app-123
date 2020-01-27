@@ -11,14 +11,12 @@
         "cta": "Retail",
         "offerstatus": "notcollected",
         "offerDuration": "Valid from 00:00 hours 11-Jan-2020 to 23:59 hours 31-Jan-2020",
-        "availSteps": "<p><ol><li>&nbsp;Collect the offer from TCP App</li><li>&nbsp;Walk into any Croma store and select a product of your choice associated with the offer</li><li>&nbsp;Offer is auto-applied at payment counter</li></ol></p>",
+        "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App</li><li>&nbsp;Walk into any Croma store and select a product of your choice associated with the offer</li><li>&nbsp;Offer is auto-applied at payment counter</li></ol></p>",
         "imageList": [
             "https://i.imgur.com/yv9Qjhir.jpg",
             "https://i.imgur.com/yv9Qjhir.jpg",
             "https://i.imgur.com/yv9Qjhir.jpg",
             "https://i.imgur.com/yv9Qjhir.jpg"
-
-            
         ],
         "shareDetails": {
             "type": "limited",

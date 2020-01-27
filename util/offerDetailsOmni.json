@@ -11,7 +11,7 @@
         "cta": "Retail",
         "offerstatus": "notcollected",
         "offerDuration": "Valid from 00:00 hours 15-Jan-2020 to 23:59 hours 02-Feb-2020",
-        "availSteps": "<p><ol><li>&nbsp;Collect the offer from TCP App</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into any Westside store and select products of your choice associated with the offer.</li><li>&nbsp;Offer is auto-applied at payment counter</li></ol></p>",
+        "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into any Westside store and select products of your choice associated with the offer.</li><li>&nbsp;Offer is auto-applied at payment counter</li></ol></p>",
         "imageList": [
             "http://192.168.104.53:9999/tatadigital/img/Utsa%20Kurta%201.jpeg",
             "http://192.168.104.53:9999/tatadigital/img/Utsa%20Kurta%202.jpg",
