@@ -4,6 +4,21 @@
     ],
     "data": [
         {
+            "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
+            "title": "Nuon Shirt",
+            "description": "BUY 2 GET 1",
+            "mics": "",
+            "channel": "offline",
+            "activationtype": "Auto-applied",
+            "image": "https://i.imgur.com/E9SR15V.jpg",
+            "remainingtime": "20 days",
+            "shareDetails": {
+                "type": "exclusive",
+                "shareCount": 0
+            },
+            "offerstatus" : "expired"
+        },
+        {
             "id": "4d2cdf34-5fe7-4d61-ac55-c37a22a2ca8bc",
             "title": "HP Laptop",
             "description": "1000 additional bonus points",

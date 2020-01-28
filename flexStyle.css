@@ -1,0 +1,46 @@
+.container-1{
+    background-color: #9F7AEA;
+    padding: 2rem;
+    
+}
+
+
+ /* 
+ 1. top 
+ 2. bottom 
+ 3. left
+ 4. right
+ */
+
+/* 
+ 1. top - bottom 
+ 2. left - right 
+*/
+
+
+
+.container-2{
+    background-color: #ED64A6;
+    padding: 2rem;
+    
+}
+
+
+.container-3{
+    background-color: #667EEA;
+    padding: 2rem;
+    
+}
+
+
+/* align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
+
+
+.main-flex-container{
+    border : 6px solid #4CAF50;    
+    display: flex;
+    flex-flow: row wrap;
+    
+    height: 24rem;
+    align-items: start;
+}
