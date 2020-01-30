@@ -465,7 +465,26 @@ app.get('/myofferslist', (req,res)=> {
 
 
 
+app.post('/syncTCPContacts', (req,res)=> {
+    let body = req.body
+
+    let randomArray = []
+
+    for(let i = 0 ; i < 5 ; ++i){
+        randomArray.push(body[getRandomInt(0, req.body.length)]) 
+    }
+
+    
+    res.json({status : true , data : randomArray})
+
+
+})
+
+
+
 
 app.listen(PORT, () => {
     console.log(`the app is running on ${PORT}`);
 })
+
+
