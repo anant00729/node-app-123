@@ -495,7 +495,7 @@ app.post('/getLocationTest', (req,res) => {
             
             if(x !== "0"){
                 let locationObj = {}
-                locationObj.storeCode =  xlDataSheet2[x]["__EMPTY"]
+                
                 locationObj.storeName = xlDataSheet2[x]["__EMPTY_1"]
                 locationObj.storeLat = xlDataSheet2[x]["__EMPTY_2"]
                 locationObj.storeLong = xlDataSheet2[x]["__EMPTY_3"]
