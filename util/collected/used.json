@@ -18,7 +18,8 @@
                 "type": "exclusive",
                 "shareCount": 0
             },
-            "offerstatus" : "used"
+            "offerstatus" : "used",
+            "shareCount": 0
         },
         {
             "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
@@ -35,7 +36,8 @@
                 "type": "limited",
                 "shareCount": 5
             },
-            "offerstatus" : "used"
+            "offerstatus" : "used",
+            "shareCount": -1
         }
     ]
 }

@@ -16,7 +16,8 @@
                 "type": "limited",
                 "shareCount": 4
             },
-            "offerstatus" : "collected"
+            "offerstatus" : "collected",
+            "shareCount": -1
         },
         {
             "id": "586137cd-828f-4f3c-9afc-1b628c050ed6",
@@ -31,7 +32,8 @@
                 "type": "limited",
                 "shareCount": 5
             },
-            "offerstatus" : "collected"
+            "offerstatus" : "collected",
+            "shareCount": 3
         }
         
     ]
