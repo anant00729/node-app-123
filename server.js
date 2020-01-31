@@ -482,7 +482,7 @@ app.post('/syncTCPContacts', (req,res)=> {
 
 
 
-app.get('/getLocationTest', (req,res) => {
+app.post('/getLocationTest', (req,res) => {
     let mainResult = []
     var workbook = xlsx.readFile('location.xlsx');
     var sheet_name_list = workbook.SheetNames;
