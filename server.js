@@ -482,7 +482,7 @@ app.post('/syncTCPContacts', (req,res)=> {
 
 
 
-app.post('/getLocationTest', (req,res) => {
+app.get('/getLocationTest', (req,res) => {
     let mainResult = []
     var workbook = xlsx.readFile('location.xlsx');
     var sheet_name_list = workbook.SheetNames;
@@ -493,12 +493,14 @@ app.post('/getLocationTest', (req,res) => {
 
         for (var x in xlDataSheet2) {
             
+            let _l = xlDataSheet2[x]
+
+
             if(x !== "0"){
-                let locationObj = {}
-                
-                locationObj.storeName = xlDataSheet2[x]["__EMPTY_1"]
-                locationObj.storeLat = xlDataSheet2[x]["__EMPTY_2"]
-                locationObj.storeLong = xlDataSheet2[x]["__EMPTY_3"]
+                let locationObj = {}    
+                locationObj.storeName = _l["__EMPTY_1"] ? _l["__EMPTY_1"] : ""
+                locationObj.storeLat = _l["__EMPTY_2"] ? _l["__EMPTY_2"] : ""
+                locationObj.storeLong = _l["__EMPTY_3"] ? _l["__EMPTY_3"] : ""
                 locationObj.storeDescription = ""
                 locationObj.storeAddress = ""
                 locationObj.storeContactNumber = ""
