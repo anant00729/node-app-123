@@ -8,6 +8,22 @@ const http = require('http')
 const fetch = require('node-fetch');
 const async = require('async')
 
+var NodeGeocoder = require('node-geocoder');
+
+
+var options = {
+    provider: 'google',
+   
+    // Optional depending on the providers
+    httpAdapter: 'https', // Default
+    apiKey: 'AIzaSyAVVrpEllgZX3FZwC6RI6Oy0kuXUhN79v8', // for Mapquest, OpenCage, Google Premier
+    formatter: null         // 'gpx', 'string', ...
+  };
+
+
+
+var geocoder = NodeGeocoder(options);
+
 
 const { performance } = require('perf_hooks')
 
@@ -20,7 +36,7 @@ const usedOffers = require('./util/collected/used.json')
 const expiredOffers = require('./util/collected/expired.json')
 
 const home_data = require('./util/home2.json')
-const location_data = require('./util/location.json')
+const location_data = require('./util/location/getLocation.json')
 
 const home_offers = require('./util/home/homeOffers.json')
 const home_offers_ios = require('./util/home/homeOffersiOS.json')
@@ -348,7 +364,23 @@ var offer_images = [
 
 
 app.post('/getLocation', (req,res)=> {
-    res.json(location_data)
+
+    const lat = req.body.latitude
+    const long = req.body.longitude
+
+
+    let locationData = {...location_data}
+
+    locationData.data = locationData.data.map((_lObj) => {
+        let distance = getDistanceFromLatLonInKm(lat, long, _lObj.storeLat, _lObj.storeLong)
+        _lObj.distance = distance
+        return _lObj
+    })
+
+    locationData.data = locationData.data.sort((a, b) => a.distance - b.distance);
+    locationData.data = locationData.data.splice(0 , 10)
+
+    res.json(locationData)
 })
 
 
@@ -482,7 +514,7 @@ app.post('/syncTCPContacts', (req,res)=> {
 
 
 
-app.post('/getLocationTest', (req,res) => {
+app.get('/getLocationTest', (req,res) => {
     let mainResult = []
     var workbook = xlsx.readFile('location.xlsx');
     var sheet_name_list = workbook.SheetNames;
@@ -497,6 +529,13 @@ app.post('/getLocationTest', (req,res) => {
 
 
             if(x !== "0"){
+
+                let distance = getDistanceFromLatLonInKm(18.936244, 72.833981, 
+                    _l["__EMPTY_2"] ? _l["__EMPTY_2"] : "", 
+                    _l["__EMPTY_3"] ? _l["__EMPTY_3"] : "")
+
+
+                
                 let locationObj = {}    
                 locationObj.storeName = _l["__EMPTY_1"] ? _l["__EMPTY_1"] : ""
                 locationObj.storeLat = _l["__EMPTY_2"] ? _l["__EMPTY_2"] : ""
@@ -504,6 +543,7 @@ app.post('/getLocationTest', (req,res) => {
                 locationObj.storeDescription = ""
                 locationObj.storeAddress = ""
                 locationObj.storeContactNumber = ""
+                locationObj.distance = distance
                 mainResult.push(locationObj)
             }
 		}
@@ -511,9 +551,131 @@ app.post('/getLocationTest', (req,res) => {
     });
 
 
+    mainResult = mainResult.sort(function(a, b){return a.distance - b.distance});
+    //mainResult = mainResult.splice(0 , 10)
+
+
+    
+
+
     res.json({ status : 200 , data : mainResult})
 })
 
+
+
+
+app.get('/mapLocationAddress', (req,res) => {
+    let mainResult = []
+    var workbook = xlsx.readFile('location.xlsx');
+    var workbook_1 = xlsx.readFile('store_master.xlsx');
+    var sheet_name_list = workbook.SheetNames;
+    var sheet_name_list_1 = workbook_1.SheetNames;
+
+
+    // sheet_name_list_1.forEach(function(y) {
+
+    //     const xlDataSheet_1 = xlsx.utils.sheet_to_json(workbook_1.Sheets[sheet_name_list_1[0]])
+
+    //     for (var y in xlDataSheet_1) {
+    //         console.log('y', y)
+    //     }
+        
+    // })
+
+
+    sheet_name_list.forEach( async (y) =>  {
+        var worksheet = workbook.Sheets[y];
+        const xlDataSheet2 = xlsx.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]])
+        
+
+        for (var x in xlDataSheet2) {
+            
+            let _l = xlDataSheet2[x]
+
+
+            if(x !== "0"){
+
+                let distance = getDistanceFromLatLonInKm(18.936244, 72.833981, 
+                    _l["__EMPTY_2"] ? _l["__EMPTY_2"] : "", 
+                    _l["__EMPTY_3"] ? _l["__EMPTY_3"] : "")
+
+
+
+                let lati = _l["__EMPTY_2"] ? _l["__EMPTY_2"] : ""  
+                
+                let lngi =_l["__EMPTY_3"] ? _l["__EMPTY_3"] : ""
+
+                // Using callback
+                let address = await geocoder.reverse({ lat: lati, lon : lngi});
+                let locationObj = {}    
+                    locationObj.storeName = _l["__EMPTY_1"] ? _l["__EMPTY_1"] : ""
+                    locationObj.storeLat = _l["__EMPTY_2"] ? _l["__EMPTY_2"] : ""
+                    locationObj.storeLong = _l["__EMPTY_3"] ? _l["__EMPTY_3"] : ""
+                    locationObj.storeDescription = ""
+                    locationObj.storeAddress = ""
+                    locationObj.storeContactNumber = ""
+                    locationObj.distance = distance
+
+                if(address){
+                    locationObj.geoAddress = address
+                }
+
+                mainResult.push(locationObj)
+   
+
+
+                
+                
+            }
+		}
+        
+    });
+
+
+    // mainResult = mainResult.sort(function(a, b){return a.distance - b.distance});
+    // mainResult = mainResult.splice(0 , 10)
+
+
+    
+
+
+    res.json({ status : 200 , data : mainResult})
+})
+
+
+
+function calDistance(lat1, lon1, lat2, lon2, unit) {
+    var radlat1 = Math.PI * lat1/180
+    var radlat2 = Math.PI * lat2/180
+    var theta = lon1-lon2
+    var radtheta = Math.PI * theta/180
+    var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+    dist = Math.acos(dist)
+    dist = dist * 180/Math.PI
+    dist = dist * 60 * 1.1515
+    if (unit=="K") { dist = dist * 1.609344 }
+    if (unit=="N") { dist = dist * 0.8684 }
+    return dist
+}
+
+
+function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
+    var R = 6371; // Radius of the earth in km
+    var dLat = deg2rad(lat2-lat1);  // deg2rad below
+    var dLon = deg2rad(lon2-lon1); 
+    var a = 
+      Math.sin(dLat/2) * Math.sin(dLat/2) +
+      Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+      Math.sin(dLon/2) * Math.sin(dLon/2)
+      ; 
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+    var d = R * c; // Distance in km
+    return d;
+  }
+  
+  function deg2rad(deg) {
+    return deg * (Math.PI/180)
+  }
 
 
 app.listen(PORT, () => {

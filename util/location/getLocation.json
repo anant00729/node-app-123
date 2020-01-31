@@ -1,0 +1,1391 @@
+{
+    "status": 200,
+    "data": [
+      {
+        "storeName": "Croma Fort",
+        "storeLat": 18.932271,
+        "storeLong": 72.832083,
+        "storeDescription": "Hutatma Chowk Flora Fountain Mumbai India",
+        "storeAddress": "381 Veer Nariman Road, Mumbai, Maharashtra, 400001",
+        "storeContactNumber": "07207666000",
+        "distance": 0.4847874191583402
+      },
+      {
+        "storeName": "Croma Churchgate",
+        "storeLat": 18.930045,
+        "storeLong": 72.823949,
+        "storeDescription": "Ram Mahal, Block No. 2, Ground Floor",
+        "storeAddress": "Dinshaw Vacha Rd, next to Star Market and Starbucks, Churchgate, Mumbai, Maharashtra 400020",
+        "storeContactNumber": "08291760607",
+        "distance": 1.2603512472679301
+      },
+      {
+        "storeName": "Croma Breach Candy",
+        "storeLat": 18.964819,
+        "storeLong": 72.801853,
+        "storeDescription": "#106, Dhun-Abad, Bhulabai Desai Road Junction of Warden Road",
+        "storeAddress": "L Jagmohandas Marg, Mumbai, Maharashtra 400036",
+        "storeContactNumber": "07207666000",
+        "distance": 4.638146207811297
+      },
+      {
+        "storeName": "Croma - High Street Phoenix",
+        "storeLat": 18.994821,
+        "storeLong": 72.82155,
+        "storeDescription": "462, Grand Galleria, Pheonix Mills Compound",
+        "storeAddress": "Senapati Bapat Marg, Block-43, Parel, Mumbai, Maharashtra 400013",
+        "storeContactNumber": "07207666000",
+        "distance": 6.6433478838898
+      },
+      {
+        "storeName": "Croma Prabhadevi",
+        "storeLat": 19.01256,
+        "storeLong": 72.821269,
+        "storeDescription": "Century Bhavan, Lower Ground Floor",
+        "storeAddress": "Dr Annie Besant Rd, Worli, Mumbai, Maharashtra 400030",
+        "storeContactNumber": "07207666000",
+        "distance": 8.59058569176987
+      },
+      {
+        "storeName": "Croma Sion",
+        "storeLat": 19.040008,
+        "storeLong": 72.863037,
+        "storeDescription": "Cinemax, SION, Ground Floor, Sion Garage Building",
+        "storeAddress": "Plot No. 112 Sion Koliwada Road,Near, Mumbai, Maharashtra 400022",
+        "storeContactNumber": "07207666000",
+        "distance": 11.935645069114601
+      },
+      {
+        "storeName": "Croma Linking Road",
+        "storeLat": 19.065141,
+        "storeLong": 72.831461,
+        "storeDescription": "Lower Ground Link Square Mall 490",
+        "storeAddress": "Vitthalbhai Patel Road, 491, 33rd Rd, Bandra West, Mumbai, Maharashtra 400050",
+        "storeContactNumber": "07207666000",
+        "distance": 14.33514102912321
+      },
+      {
+        "storeName": "Croma Terminal 1B",
+        "storeLat": 19.092277,
+        "storeLong": 72.854794,
+        "storeDescription": "At Ph II of Terminal B1",
+        "storeAddress": "Chhatrapati Shivaji International Airport, Maharashtra 400099",
+        "storeContactNumber": "072076 66000",
+        "distance": 17.487500112890878
+      },
+      {
+        "storeName": "Croma Phoenix Marketcity",
+        "storeLat": 19.086997,
+        "storeLong": 72.887537,
+        "storeDescription": "UG - 41, 42, LBS Rd, Kamani",
+        "storeAddress": "Kurla West, Kurla, Mumbai, Maharashtra 400070",
+        "storeContactNumber": "07207666000",
+        "distance": 17.683256612588888
+      },
+      {
+        "storeName": "Croma Terminal 2",
+        "storeLat": 19.098203,
+        "storeLong": 72.872309,
+        "storeDescription": "Chhatrapati Shivaji International Airport",
+        "storeAddress": "Terminal 2, Navpada, Vile Parle East, Vile Parle, Mumbai, Maharashtra 400099",
+        "storeContactNumber": "07207666000",
+        "distance": 18.454261315322643
+      },
+      {
+        "storeName": "Croma Juhu",
+        "storeLat": 19.113366,
+        "storeLong": 72.827894,
+        "storeDescription": "Juhu Ground Floor, Vasundhara Chs, Opp Utpal Shanghvi School",
+        "storeAddress": "JVPD Scheme, Vile Parle West, Mumbai, Maharashtra 400049",
+        "storeContactNumber": "07207666000",
+        "distance": 19.705459449408846
+      },
+      {
+        "storeName": "Croma R City Mall",
+        "storeLat": 19.099028,
+        "storeLong": 72.91379,
+        "storeDescription": "R City Mall, Unit No.G10, Ground Floor",
+        "storeAddress": "LBS Rd, Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra 400086",
+        "storeContactNumber": "07207666000",
+        "distance": 19.9506642859348
+      },
+      {
+        "storeName": "Croma Grand Central Mall",
+        "storeLat": 19.021509000000002,
+        "storeLong": 73.015575,
+        "storeDescription": "Plot No. R-1, Seawoods Grand Central Mall Railway Station",
+        "storeAddress": "Sector 40, Seawoods, Navi Mumbai, Maharashtra 400706",
+        "storeContactNumber": "07207666000",
+        "distance": 21.31889886921533
+      },
+      {
+        "storeName": "Croma Belapur",
+        "storeLat": 19.009772,
+        "storeLong": 73.030513,
+        "storeDescription": "plot 35, Lords Bldg, 35A, Palm Beach Rd",
+        "storeAddress": "Sector 15, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+        "storeContactNumber": "07207666000",
+        "distance": 22.22462423671823
+      },
+      {
+        "storeName": "Croma Andheri West",
+        "storeLat": 19.139987,
+        "storeLong": 72.829891,
+        "storeDescription": "2/3 Link Road Landmark",
+        "storeAddress": "opposite China Gate Restaurant, Andheri, Maharashtra 400053",
+        "storeContactNumber": "07207666000",
+        "distance": 22.659266624095324
+      },
+      {
+        "storeName": "Croma Akshar Plaza",
+        "storeLat": 19.081772,
+        "storeLong": 73.003081,
+        "storeDescription": "Akshar Plaza Ground & First Floor Plot No. 26 & 27 C",
+        "storeAddress": "Palm Beach Rd, Sector 19, Vashi, Navi Mumbai, Maharashtra 400705",
+        "storeContactNumber": "07045025099",
+        "distance": 24.03959318314132
+      },
+      {
+        "storeName": "Croma Neptune Mall",
+        "storeLat": 19.140838,
+        "storeLong": 72.929001,
+        "storeDescription": "Neptune Mall Ground Floor Near Mangatram petrol pump",
+        "storeAddress": "LBS Rd, Bhandup West, Mumbai, Maharashtra 400078",
+        "storeContactNumber": "07207666000",
+        "distance": 24.845721150305536
+      },
+      {
+        "storeName": "Croma Oberoi Mall",
+        "storeLat": 19.17359,
+        "storeLong": 72.857797,
+        "storeDescription": "Western Express Hwy, Yashodham",
+        "storeAddress": "Goregaon, Mumbai, Maharashtra 400063",
+        "storeContactNumber": "07207666000",
+        "distance": 26.510108628296894
+      },
+      {
+        "storeName": "Croma Kharghar",
+        "storeLat": 19.033506,
+        "storeLong": 73.06449,
+        "storeDescription": "Kharghar,Showroom No.2/3/4/5/6,Ground/First Floor The Landmark,Plot No.26A",
+        "storeAddress": "Sec 07, Kharghar, Mumbai, Maharashtra 410210",
+        "storeContactNumber": "07207666000",
+        "distance": 26.54065803339835
+      },
+      {
+        "storeName": "Croma Infiniti Mall",
+        "storeLat": 19.184965,
+        "storeLong": 72.8324,
+        "storeDescription": "Infiniti Mall, Unit No.LG002",
+        "storeAddress": "New Link Rd, Malad West, Mumbai, Maharashtra 400064",
+        "storeContactNumber": "07207666000",
+        "distance": 27.657012492579952
+      },
+      {
+        "storeName": "Croma Malad",
+        "storeLat": 19.186633,
+        "storeLong": 72.835194,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 27.842278349222976
+      },
+      {
+        "storeName": "Croma Growel's Mall",
+        "storeLat": 19.203138,
+        "storeLong": 72.857611,
+        "storeDescription": "Ground Floor Center Palm Spring, New Link Rd",
+        "storeAddress": "Malad, Mindspace, Malad West, Mumbai, Maharashtra 400064",
+        "storeContactNumber": "07207666000",
+        "distance": 29.780978134937868
+      },
+      {
+        "storeName": "Croma Mulund",
+        "storeLat": 19.182349,
+        "storeLong": 72.95198,
+        "storeDescription": "Colour Scape, Mall Dhamaal, Off LBS Road",
+        "storeAddress": "Dumping Road Opp. R Mall, Near, Mulund Checknaka, Mulund (W, Mumbai, Maharashtra 400080",
+        "storeContactNumber": "072076 66000",
+        "distance": 30.04458955620419
+      },
+      {
+        "storeName": "Croma Mahavir Nagar",
+        "storeLat": 19.212983,
+        "storeLong": 72.840373,
+        "storeDescription": "V Souk, B-2, Sector-10, Opposite, Kamla Vihar Sports Club Ln",
+        "storeAddress": "Mahavir Nagar, Kandivali West, Mumbai, Maharashtra 400067",
+        "storeContactNumber": "07207666000",
+        "distance": 30.77930366758573
+      },
+      {
+        "storeName": "Croma Borivali",
+        "storeLat": 19.233658,
+        "storeLong": 72.851612,
+        "storeDescription": "Natraj, Ground & 1st Floor",
+        "storeAddress": "Sodawala Ln, Borivali West, Mumbai, Maharashtra 400092",
+        "storeContactNumber": "07207666000",
+        "distance": 33.12278419788787
+      },
+      {
+        "storeName": "Croma Kapurbawadi",
+        "storeLat": 19.221587,
+        "storeLong": 72.9759,
+        "storeDescription": "Ghodbunder Service Rd, Kailash Nagar",
+        "storeAddress": "Thane West, Thane, Maharashtra 400607",
+        "storeContactNumber": "07207666000",
+        "distance": 35.05897420863195
+      },
+      {
+        "storeName": "Croma R Mall",
+        "storeLat": 19.229895,
+        "storeLong": 72.975224,
+        "storeDescription": "R Mall, Ground floor, Opp Lawkim CompanyHouse No. 43, S. NO. 32/2H",
+        "storeAddress": "5 Before Runwal Estate, Ghodbunder Rd, Thane West, Mumbai, Maharashtra 400607",
+        "storeContactNumber": "07207666000",
+        "distance": 35.86756957508872
+      },
+      {
+        "storeName": "Croma Big Mall",
+        "storeLat": 19.268281,
+        "storeLong": 72.963096,
+        "storeDescription": "Level 1, Big Shopping Center, Ghodbunder Rd",
+        "storeAddress": "above Hyper City, Thane West, Mumbai, Maharashtra 400601",
+        "storeContactNumber": "07207666000",
+        "distance": 39.334383267855834
+      },
+      {
+        "storeName": "Croma Rashesh Mall",
+        "storeLat": 19.295293,
+        "storeLong": 72.845795,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 39.943716771292124
+      },
+      {
+        "storeName": "Croma Aishwaryam",
+        "storeLat": 18.646925,
+        "storeLong": 73.788722,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 105.52662659174587
+      },
+      {
+        "storeName": "Croma Wakad",
+        "storeLat": 18.590474,
+        "storeLong": 73.767849,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 105.57244038865203
+      },
+      {
+        "storeName": "Croma Baner",
+        "storeLat": 18.56584,
+        "storeLong": 73.769132,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 106.73174327287413
+      },
+      {
+        "storeName": "Croma Shubhan Galleria",
+        "storeLat": 18.625422,
+        "storeLong": 73.799608,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 107.37037558070776
+      },
+      {
+        "storeName": "Croma Aundh",
+        "storeLat": 18.553686,
+        "storeLong": 73.806827,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 110.91859798312471
+      },
+      {
+        "storeName": "Croma Kothrud",
+        "storeLat": 18.498701,
+        "storeLong": 73.819599,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 114.63552973156848
+      },
+      {
+        "storeName": "Croma Phoenix Market City",
+        "storeLat": 18.562026,
+        "storeLong": 73.914742,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 121.16674652260795
+      },
+      {
+        "storeName": "Croma Krome Mall",
+        "storeLat": 18.506667,
+        "storeLong": 73.907814,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 122.76089358898727
+      },
+      {
+        "storeName": "Croma Seasons Mall",
+        "storeLat": 18.519144,
+        "storeLong": 73.929783,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 124.36745163529098
+      },
+      {
+        "storeName": "Croma College Road",
+        "storeLat": 20.007946,
+        "storeLong": 73.762053,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 153.84010143909586
+      },
+      {
+        "storeName": "Croma Vapi",
+        "storeLat": 20.389222,
+        "storeLong": 72.898214,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 161.70371110902377
+      },
+      {
+        "storeName": "Croma Baramati",
+        "storeLat": 18.162504,
+        "storeLong": 74.588664,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 204.00307077141784
+      },
+      {
+        "storeName": "Croma Ripple Mall",
+        "storeLat": 21.160364,
+        "storeLong": 72.771013,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 247.39829583251762
+      },
+      {
+        "storeName": "Croma Crossway Mall",
+        "storeLat": 21.175181,
+        "storeLong": 72.811142,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 248.96986277857346
+      },
+      {
+        "storeName": "Croma Proton Plus Mall",
+        "storeLat": 21.18704,
+        "storeLong": 72.787976,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 250.3232110505133
+      },
+      {
+        "storeName": "Croma Deepkamal Mall",
+        "storeLat": 21.22919,
+        "storeLong": 72.894624,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 255.04259231435367
+      },
+      {
+        "storeName": "Croma Waluj",
+        "storeLat": 19.840326,
+        "storeLong": 75.237101,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 271.36347556909664
+      },
+      {
+        "storeName": "Croma Prozon Mall",
+        "storeLat": 19.876453,
+        "storeLong": 75.369985,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 285.7733339845509
+      },
+      {
+        "storeName": "Croma Kolhapur",
+        "storeLat": 16.701286,
+        "storeLong": 74.249363,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 290.1834574110138
+      },
+      {
+        "storeName": "Croma Bharuch",
+        "storeLat": 21.720091,
+        "storeLong": 72.981114,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 309.9294914169553
+      },
+      {
+        "storeName": "Croma Bhavnagar",
+        "storeLat": 21.75028,
+        "storeLong": 72.131464,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 321.36216295009257
+      },
+      {
+        "storeName": "Croma Eva Mall",
+        "storeLat": 22.272655,
+        "storeLong": 73.188408,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 372.8207776953355
+      },
+      {
+        "storeName": "Croma Centre Square Mall",
+        "storeLat": 22.318215,
+        "storeLong": 73.167098,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 377.65180737572064
+      },
+      {
+        "storeName": "Croma Kareli Baug",
+        "storeLat": 22.325251,
+        "storeLong": 73.197614,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 378.7347762903569
+      },
+      {
+        "storeName": "Croma Junagadh",
+        "storeLat": 21.503672,
+        "storeLong": 70.439601,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 379.3460809554793
+      },
+      {
+        "storeName": "Croma Porvorim",
+        "storeLat": 15.535399,
+        "storeLong": 73.821101,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 392.41356986209547
+      },
+      {
+        "storeName": "Croma Nadiad-Sepal",
+        "storeLat": 22.673346,
+        "storeLong": 72.884566,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 415.5800302585101
+      },
+      {
+        "storeName": "Croma - Rajkot",
+        "storeLat": 22.279636,
+        "storeLong": 70.760719,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 429.831437540771
+      },
+      {
+        "storeName": "Croma Maninagar",
+        "storeLat": 23.009779,
+        "storeLong": 72.597132,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 453.6230845749402
+      },
+      {
+        "storeName": "Croma Ashram Road",
+        "storeLat": 23.029797,
+        "storeLong": 72.567934,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 456.0190992778173
+      },
+      {
+        "storeName": "Croma Dev Arc Mall",
+        "storeLat": 23.026932,
+        "storeLong": 72.507957,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 456.12065738008766
+      },
+      {
+        "storeName": "Croma Himalaya Mall",
+        "storeLat": 23.04665,
+        "storeLong": 72.530997,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 458.1366850012603
+      },
+      {
+        "storeName": "Croma Domestic Airport",
+        "storeLat": 23.074461,
+        "storeLong": 72.622086,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 460.6738275549028
+      },
+      {
+        "storeName": "Croma Satyam 64",
+        "storeLat": 23.078878,
+        "storeLong": 72.524091,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 461.7610025920414
+      },
+      {
+        "storeName": "Croma The Emporio",
+        "storeLat": 23.103886,
+        "storeLong": 72.592263,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 464.098873330451
+      },
+      {
+        "storeName": "Croma Hubli",
+        "storeLat": 15.350661,
+        "storeLong": 75.10951,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 466.25690021890387
+      },
+      {
+        "storeName": "Croma Jamnagar",
+        "storeLat": 22.47301,
+        "storeLong": 70.06481,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 487.4257485668732
+      },
+      {
+        "storeName": "Croma Indore",
+        "storeLat": 22.7502,
+        "storeLong": 75.894503,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 530.046707762487
+      },
+      {
+        "storeName": "Croma Gandhidham",
+        "storeLat": 23.06342,
+        "storeLong": 70.130474,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 537.8864276431862
+      },
+      {
+        "storeName": "Croma Bhuj",
+        "storeLat": 23.255111,
+        "storeLong": 69.638499,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 583.4768885089734
+      },
+      {
+        "storeName": "Croma Davangere",
+        "storeLat": 14.462123,
+        "storeLong": 75.920914,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 596.2608604735253
+      },
+      {
+        "storeName": "Croma Sarath City Capital Mall",
+        "storeLat": 17.457964,
+        "storeLong": 78.361883,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 606.5865803149259
+      },
+      {
+        "storeName": "Croma Kondapur",
+        "storeLat": 17.463403,
+        "storeLong": 78.365316,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 606.7634568850098
+      },
+      {
+        "storeName": "Croma Kukatpally",
+        "storeLat": 17.484562,
+        "storeLong": 78.411538,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 610.8055877683871
+      },
+      {
+        "storeName": "Croma Jubilee Hills",
+        "storeLat": 17.435887,
+        "storeLong": 78.398829,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 611.0445666252906
+      },
+      {
+        "storeName": "Croma Attapur",
+        "storeLat": 17.35918,
+        "storeLong": 78.424155,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 616.1143238990319
+      },
+      {
+        "storeName": "Croma Kompally",
+        "storeLat": 17.531735,
+        "storeLong": 78.485593,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 616.9263693496538
+      },
+      {
+        "storeName": "Croma Panjagutta",
+        "storeLat": 17.422198,
+        "storeLong": 78.453016,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 616.9881975394825
+      },
+      {
+        "storeName": "Croma Vikrampuri Kharkhana",
+        "storeLat": 17.458757,
+        "storeLong": 78.498269,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 620.4399974794163
+      },
+      {
+        "storeName": "Croma Domestic Airport",
+        "storeLat": 17.23499,
+        "storeLong": 78.428883,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 620.8578214104625
+      },
+      {
+        "storeName": "Croma Ramanthapur",
+        "storeLat": 17.400309,
+        "storeLong": 78.524612,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 624.9636095244736
+      },
+      {
+        "storeName": "Croma AS Rao Nagar",
+        "storeLat": 17.481425,
+        "storeLong": 78.551827,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 625.2022957298201
+      },
+      {
+        "storeName": "Croma L.B. Nagar",
+        "storeLat": 17.352739,
+        "storeLong": 78.544473,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 628.5209579217926
+      },
+      {
+        "storeName": "Croma Arera Colony Bhopal",
+        "storeLat": 23.215836,
+        "storeLong": 77.436055,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 674.0054427944297
+      },
+      {
+        "storeName": "Croma DB Mall",
+        "storeLat": 23.23253,
+        "storeLong": 77.427884,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 674.6988066445257
+      },
+      {
+        "storeName": "Croma Yelahanka",
+        "storeLat": 13.092018,
+        "storeLong": 77.591731,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 824.979871604968
+      },
+      {
+        "storeName": "Croma New BEL Road",
+        "storeLat": 13.031845,
+        "storeLong": 77.56774,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 828.7376570047737
+      },
+      {
+        "storeName": "Croma Rajajajinagar",
+        "storeLat": 13.00403,
+        "storeLong": 77.549759,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 830.0424052116251
+      },
+      {
+        "storeName": "Croma Malleshwaram",
+        "storeLat": 12.992207,
+        "storeLong": 77.568367,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 832.3026919697821
+      },
+      {
+        "storeName": "Croma M.C. Road",
+        "storeLat": 12.526849,
+        "storeLong": 76.879569,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 833.7686459951408
+      },
+      {
+        "storeName": "Croma S S Manor",
+        "storeLat": 13.02589,
+        "storeLong": 77.638784,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 833.9169615738815
+      },
+      {
+        "storeName": "Croma Banshankari",
+        "storeLat": 12.924275,
+        "storeLong": 77.550764,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 837.2279801994691
+      },
+      {
+        "storeName": "Croma Jayanagar",
+        "storeLat": 12.939767,
+        "storeLong": 77.582821,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 837.9122820457862
+      },
+      {
+        "storeName": "Croma Indiranagar",
+        "storeLat": 12.970527,
+        "storeLong": 77.638862,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 838.8224792502382
+      },
+      {
+        "storeName": "Croma Star Bazaar",
+        "storeLat": 12.936611,
+        "storeLong": 77.608194,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 839.8379686931899
+      },
+      {
+        "storeName": "Croma Phoenix Marketcity",
+        "storeLat": 12.997101,
+        "storeLong": 77.694351,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 840.1197237124202
+      },
+      {
+        "storeName": "Croma J.P.Nagar",
+        "storeLat": 12.916602,
+        "storeLong": 77.589108,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 840.3859311405424
+      },
+      {
+        "storeName": "Croma Koramangla",
+        "storeLat": 12.938039,
+        "storeLong": 77.625304,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 840.8228210697032
+      },
+      {
+        "storeName": "Croma Mysore",
+        "storeLat": 12.294026,
+        "storeLong": 76.623278,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 842.5809629918915
+      },
+      {
+        "storeName": "Croma Royal Meenakshi Mall",
+        "storeLat": 12.876066,
+        "storeLong": 77.59395,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 844.3206769813787
+      },
+      {
+        "storeName": "Croma Marathahalli",
+        "storeLat": 12.943129,
+        "storeLong": 77.695657,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 844.9711317227614
+      },
+      {
+        "storeName": "Croma Sarjapur",
+        "storeLat": 12.916798,
+        "storeLong": 77.669374,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 845.58235924684
+      },
+      {
+        "storeName": "Croma Varthur Road",
+        "storeLat": 12.956825,
+        "storeLong": 77.730237,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 846.0402606819368
+      },
+      {
+        "storeName": "Croma Malviya Nagar",
+        "storeLat": 26.85404,
+        "storeLong": 75.803142,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 931.3497316253015
+      },
+      {
+        "storeName": "Croma City Center",
+        "storeLat": 26.211421,
+        "storeLong": 78.185062,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 977.5691919721007
+      },
+      {
+        "storeName": "Croma Coimbatore Prozone Mall",
+        "storeLat": 11.054252,
+        "storeLong": 76.994365,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 983.5843017376742
+      },
+      {
+        "storeName": "Croma Laxmi Mills",
+        "storeLat": 11.013942,
+        "storeLong": 76.987849,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 987.2816039019425
+      },
+      {
+        "storeName": "Croma Avadi",
+        "storeLat": 13.113913,
+        "storeLong": 80.10059,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1010.7227082136143
+      },
+      {
+        "storeName": "Croma Mogappair",
+        "storeLat": 13.085589,
+        "storeLong": 80.16737,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1018.2590252554713
+      },
+      {
+        "storeName": "Croma Annanagar",
+        "storeLat": 13.084369,
+        "storeLong": 80.214707,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1022.2416754399663
+      },
+      {
+        "storeName": "Chrompet Croma",
+        "storeLat": 12.943442,
+        "storeLong": 80.132243,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1025.7700820710531
+      },
+      {
+        "storeName": "Croma T Nagar",
+        "storeLat": 13.048597,
+        "storeLong": 80.230839,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1026.155015746653
+      },
+      {
+        "storeName": "Croma Mount Road",
+        "storeLat": 13.066747,
+        "storeLong": 80.266656,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1027.7953556240504
+      },
+      {
+        "storeName": "Croma Phoenix Market City",
+        "storeLat": 12.991953,
+        "storeLong": 80.21473,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1028.9450591103468
+      },
+      {
+        "storeName": "Croma Grand Mall",
+        "storeLat": 12.972063,
+        "storeLong": 80.217732,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1030.6404858928197
+      },
+      {
+        "storeName": "Croma BSR Mall",
+        "storeLat": 12.949562,
+        "storeLong": 80.238248,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1033.9598821883205
+      },
+      {
+        "storeName": "Croma Murali Nagar",
+        "storeLat": 17.743444,
+        "storeLong": 83.260461,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1108.2714864651755
+      },
+      {
+        "storeName": "Croma MVR Vizag",
+        "storeLat": 17.7253826,
+        "storeLong": 83.3151432,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1114.2968489608336
+      },
+      {
+        "storeName": "Croma Sohna Road",
+        "storeLat": 28.41485,
+        "storeLong": 77.039918,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1137.3828921044167
+      },
+      {
+        "storeName": "Croma Sector 29",
+        "storeLat": 28.46375,
+        "storeLong": 77.062907,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1143.2663510825962
+      },
+      {
+        "storeName": "Croma DLF Mall",
+        "storeLat": 28.475326,
+        "storeLong": 77.090826,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1145.519638456463
+      },
+      {
+        "storeName": "Croma Ambience Mall",
+        "storeLat": 28.505412,
+        "storeLong": 77.094204,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1148.7264778862514
+      },
+      {
+        "storeName": "Croma Crown Mall",
+        "storeLat": 28.469475,
+        "storeLong": 77.305087,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1153.324146352249
+      },
+      {
+        "storeName": "Croma Terminal 3",
+        "storeLat": 28.555629,
+        "storeLong": 77.08215,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1153.407213628868
+      },
+      {
+        "storeName": "Croma Terminal 3D",
+        "storeLat": 28.549451,
+        "storeLong": 77.114524,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1154.0096617183901
+      },
+      {
+        "storeName": "Croma Vasant Kunj",
+        "storeLat": 28.541346,
+        "storeLong": 77.152839,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1154.6540271794775
+      },
+      {
+        "storeName": "Croma Saket",
+        "storeLat": 28.525959,
+        "storeLong": 77.208944,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1155.2636147242006
+      },
+      {
+        "storeName": "Croma Terminal 1D",
+        "storeLat": 28.562565,
+        "storeLong": 77.117904,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1155.480624512164
+      },
+      {
+        "storeName": "Croma Soul City Mall",
+        "storeLat": 28.596513,
+        "storeLong": 77.033514,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1155.7641715564914
+      },
+      {
+        "storeName": "Croma Select City Walk",
+        "storeLat": 28.529153,
+        "storeLong": 77.217494,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1155.9234967293257
+      },
+      {
+        "storeName": "Croma Vegas",
+        "storeLat": 28.6011187,
+        "storeLong": 77.0304606,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1156.1227073325092
+      },
+      {
+        "storeName": "Croma Green Park",
+        "storeLat": 28.556595,
+        "storeLong": 77.200176,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1158.0449964479749
+      },
+      {
+        "storeName": "Croma Lamba House",
+        "storeLat": 28.556309,
+        "storeLong": 77.239171,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1159.5388017144378
+      },
+      {
+        "storeName": "Croma South Ex",
+        "storeLat": 28.568389,
+        "storeLong": 77.215523,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1159.8453123848067
+      },
+      {
+        "storeName": "Croma Janakpuri",
+        "storeLat": 28.628656,
+        "storeLong": 77.073923,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1160.5813958402634
+      },
+      {
+        "storeName": "",
+        "storeLat": 28.463764,
+        "storeLong": 77.505074,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1160.905713226129
+      },
+      {
+        "storeName": "Croma Mall of India",
+        "storeLat": 28.56659,
+        "storeLong": 77.319224,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1163.7453743752733
+      },
+      {
+        "storeName": "Croma Rajouri Garden",
+        "storeLat": 28.645911,
+        "storeLong": 77.123971,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1164.2436119265558
+      },
+      {
+        "storeName": "Croma Logix City Centre",
+        "storeLat": 28.574258,
+        "storeLong": 77.351332,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1165.803963361179
+      },
+      {
+        "storeName": "Croma Pusa Road",
+        "storeLat": 28.643604,
+        "storeLong": 77.185905,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1166.3756269446692
+      },
+      {
+        "storeName": "Croma Connaught Place",
+        "storeLat": 28.634237,
+        "storeLong": 77.218855,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1166.691463429961
+      },
+      {
+        "storeName": "Croma Rohini Sector 3 M2K",
+        "storeLat": 28.699878000000002,
+        "storeLong": 77.115439,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1169.451013489985
+      },
+      {
+        "storeName": "Croma Preet Vihar",
+        "storeLat": 28.639013,
+        "storeLong": 77.289873,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1169.949092369751
+      },
+      {
+        "storeName": "Croma Rohini West",
+        "storeLat": 28.71501,
+        "storeLong": 77.114278,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1170.959035474516
+      },
+      {
+        "storeName": "Croma Kamla Nagar",
+        "storeLat": 28.683386,
+        "storeLong": 77.202946,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1171.0963969457357
+      },
+      {
+        "storeName": "Croma Pacific Mall",
+        "storeLat": 28.646091,
+        "storeLong": 77.318249,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1171.7863235176615
+      },
+      {
+        "storeName": "Croma Gaur City Mall",
+        "storeLat": 28.60576,
+        "storeLong": 77.427331,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1172.0514170275308
+      },
+      {
+        "storeName": "Croma Aditya City Centre",
+        "storeLat": 28.638625,
+        "storeLong": 77.359863,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1172.6767896291176
+      },
+      {
+        "storeName": "Croma Gaur Central Mall",
+        "storeLat": 28.6736,
+        "storeLong": 77.438296,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1179.3627046569873
+      },
+      {
+        "storeName": "Croma Mohali",
+        "storeLat": 30.737388,
+        "storeLong": 76.676515,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1367.99370148278
+      },
+      {
+        "storeName": "Croma Sector 22B",
+        "storeLat": 30.732027,
+        "storeLong": 76.774479,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1370.2438299952037
+      },
+      {
+        "storeName": "Croma Sector 26",
+        "storeLat": 30.724501,
+        "storeLong": 76.804297,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1370.3183496235943
+      },
+      {
+        "storeName": "Croma Jalandhar",
+        "storeLat": 31.026551,
+        "storeLong": 75.848226,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1378.0751157854588
+      },
+      {
+        "storeName": "Croma Rajarhat",
+        "storeLat": 22.5544435,
+        "storeLong": 88.3406132,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1660.92350267107
+      },
+      {
+        "storeName": "",
+        "storeLat": 22.529822,
+        "storeLong": 88.350873,
+        "storeDescription": "",
+        "storeAddress": "",
+        "storeContactNumber": "",
+        "distance": 1661.4297691874756
+      }
+    ]
+  }
