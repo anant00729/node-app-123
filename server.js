@@ -499,6 +499,9 @@ app.post('/getLocationTest', (req,res) => {
                 locationObj.storeName = xlDataSheet2[x]["__EMPTY_1"]
                 locationObj.storeLat = xlDataSheet2[x]["__EMPTY_2"]
                 locationObj.storeLong = xlDataSheet2[x]["__EMPTY_3"]
+                locationObj.storeDescription = ""
+                locationObj.storeAddress = ""
+                locationObj.storeContactNumber = ""
                 mainResult.push(locationObj)
             }
 		}
