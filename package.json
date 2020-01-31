@@ -20,7 +20,8 @@
     "perf_hooks": "0.0.1",
     "pg": "^7.12.1",
     "request": "^2.88.0",
-    "sequelize": "^5.19.2"
+    "sequelize": "^5.19.2",
+    "xlsx": "^0.15.5"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"

@@ -29,7 +29,7 @@ const collectedOffersList = require('./util/collectOfferNew.json')
 const testDummyUsers = require('./util/testDummyUsers.json')
 
 
-
+const xlsx = require("xlsx")
 
 
 
@@ -480,6 +480,34 @@ app.post('/syncTCPContacts', (req,res)=> {
 
 })
 
+
+
+app.post('/getLocationTest', (req,res) => {
+    let mainResult = []
+    var workbook = xlsx.readFile('location.xlsx');
+    var sheet_name_list = workbook.SheetNames;
+    sheet_name_list.forEach(function(y) {
+        var worksheet = workbook.Sheets[y];
+        const xlDataSheet2 = xlsx.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]])
+        
+
+        for (var x in xlDataSheet2) {
+            
+            if(x !== "0"){
+                let locationObj = {}
+                locationObj.storeCode =  xlDataSheet2[x]["__EMPTY"]
+                locationObj.storeName = xlDataSheet2[x]["__EMPTY_1"]
+                locationObj.storeLat = xlDataSheet2[x]["__EMPTY_2"]
+                locationObj.storeLong = xlDataSheet2[x]["__EMPTY_3"]
+                mainResult.push(locationObj)
+            }
+		}
+        
+    });
+
+
+    res.json({ status : 200 , data : mainResult})
+})
 
 
 
