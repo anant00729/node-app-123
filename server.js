@@ -37,6 +37,7 @@ const expiredOffers = require('./util/collected/expired.json')
 
 const home_data = require('./util/home2.json')
 const location_data = require('./util/location/getLocation.json')
+const old_location_data = require('./util/location.json')
 
 const home_offers = require('./util/home/homeOffers.json')
 const home_offers_ios = require('./util/home/homeOffersiOS.json')
@@ -373,6 +374,8 @@ app.post('/getLocation', (req,res)=> {
 
     locationData.data = locationData.data.map((_lObj) => {
         let distance = getDistanceFromLatLonInKm(lat, long, _lObj.storeLat, _lObj.storeLong)
+        _lObj.storeLat = _lObj.storeLat.toString()
+        _lObj.storeLong = _lObj.storeLong.toString()
         _lObj.distance = distance
         return _lObj
     })
@@ -381,6 +384,11 @@ app.post('/getLocation', (req,res)=> {
     locationData.data = locationData.data.splice(0 , 10)
 
     res.json(locationData)
+
+
+    //res.json(old_location_data)
+
+    
 })
 
 
