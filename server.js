@@ -365,8 +365,8 @@ var offer_images = [
 
 app.post('/getLocation', (req,res)=> {
 
-    const lat = req.body.latitude
-    const long = req.body.longitude
+    const lat = req.body.latitude || "18.936244"
+    const long = req.body.longitude || "72.833981"
 
 
     let locationData = {...location_data}
