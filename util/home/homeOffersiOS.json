@@ -30,26 +30,26 @@
             "name" : "RECOMMENDED",
             "subOffersList" : [
                 {
-                    "id" : "586137cd-828f-4f3c-9afc-1b618c090ed6",
-                    "image" : "https://i.imgur.com/yv9Qjhir.jpg",
-                    "title" : "Smart\nTVs​",
-                    "description" : "Up to 40% Off",
-                    "channel" : "offline"  
+                    "id" : "TD_Demo3",
+                    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCoLL4lYhutM3dKUH8SPlJ_U84tVDOjFwm8FmwvhmXguSglqT_",
+                    "name" : "Nuon Tshirt​",
+                    "description" : "Buy 3, Get $5 off on each​",
+                    "offerType" : "offline"  
                     
                 },
                 {
-                    "id" : "d21ed022-b54b-4657-8b17-9da124a06b0c",
-                    "image" : "https://i.imgur.com/OXKV1vL.jpg",
-                    "title" : "Taj Mahal\nPalace​",
-                    "description" : "Get 10x points on stay​",
-                    "channel" : "online"
+                    "id" : "TD_Demo4",
+                    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuhX8ccJSBNJ87ejBdMyeNgnbUF5_iK2OACYg-Xh8da_lU2MB6",
+                    "name" : "Data Cable​",
+                    "description" : "Buy 2, Get $3 off on each​",
+                    "offerType" : "online"
                 },
                 {
-                    "id" : "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
-                    "image" : "https://i.imgur.com/E9SR15V.jpg",
-                    "title" : "Utsa\nKurta​",
-                    "description" : "Buy 2 Get 1​",
-                    "channel" : "omni"
+                    "id" : "TD_Demo5",
+                    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRydwRkscFLLRR9ckB_MU20ZKk1qy2y9faZPSfsxpDPzEEd9D7",
+                    "name" : "Raga Watch​",
+                    "description" : "Buy 4, Get 10% off on each​",
+                    "offerType" : "omni"
                 }
             ]
 

@@ -335,6 +335,9 @@ app.get('/test1', async (req,res)=> {
 const offerOnline = require('./util/offerDetailsOnline.json')
 const offerOmni = require('./util/offerDetailsOmni.json')
 const offerOffline = require('./util/offerDetailsOffine.json')
+const demo3 = require('./util/home_offers/td_Demo3.json')
+const demo4 = require('./util/home_offers/td_Demo4.json')
+const demo5 = require('./util/home_offers/td_Demo5.json')
 
 app.post('/offerdetails', (req,res)=>{
 
@@ -344,7 +347,15 @@ app.post('/offerdetails', (req,res)=>{
         res.json(offerOffline)
     }else if(offerId === 'd21ed022-b54b-4657-8b17-9da124a06b0c'){
         res.json(offerOnline)
-    }else {
+    }
+    else if(offerId === 'TD_Demo3'){
+        res.json(demo3)
+    }else if(offerId === 'TD_Demo4'){
+        res.json(demo4)
+    }else if(offerId === 'TD_Demo5') {
+        res.json(demo5)
+    }
+    else {
         res.json(offerOmni)
     }
     

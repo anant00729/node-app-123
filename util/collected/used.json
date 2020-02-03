@@ -11,7 +11,7 @@
             "channel": "Offline",
             "activationtype": "Collected",
             "image": "https://i.imgur.com/OXKV1vL.jpg",
-            "remainingtime": "1 days",
+            "used_on": "15-01-2020",
             "redeemat": "Taj Fort Aguada, Goa",
             "totalsavings": "5000 rs",
             "sharedetails": {
@@ -19,7 +19,8 @@
                 "shareCount": 0
             },
             "offerstatus" : "used",
-            "shareCount": 3
+            "shareCount": 3,
+            "remainingtime": " 5 hours"
         },
         {
             "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
@@ -30,12 +31,13 @@
             "channel": "online",
             "redeemat": "tcp app",
             "totalsavings": "500 rs",
-            "image": "https://i.imgur.com/yv9Qjhir.jpg",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWGF9dUnkLnCICUN4eybzGqOjFNk6roi2hCLewycvxnTx1PytT",
             "remainingtime": " 5 hours",
             "sharedetails": {
                 "type": "limited",
                 "shareCount": 5
             },
+            "used_on": "10-01-2020",
             "offerstatus" : "used",
             "shareCount": -2
         }

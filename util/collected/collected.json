@@ -4,6 +4,22 @@
     ],
     "data": [
         {
+            "id" : "TD_Demo3",
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCoLL4lYhutM3dKUH8SPlJ_U84tVDOjFwm8FmwvhmXguSglqT_",
+            "title" : "Nuon Tshirt​",
+            "description" : "Buy 3, Get $5 off on each​",
+            "channel" : "offline",
+            "remainingtime": "7 hours", 
+            "mics": "",
+            "activationtype": "Auto-applied",
+            "shareDetails": {
+                "type": "limited",
+                "shareCount": 4
+            },
+            "offerstatus" : "collected",
+            "shareCount": -1
+        },
+        {
             "id": "586137cd-828f-4f3c-9afc-1b618c090ed6",
             "title": "Smart Tvs",
             "description": "Discount Upto 40%",
@@ -27,7 +43,7 @@
             "channel": "offline",
             "activationtype": "Auto-applied",
             "image": "https://i.imgur.com/BbYbnOo.jpg",
-            "remainingtime": "7I  hours",
+            "remainingtime": "2  hours",
             "shareDetails": {
                 "type": "limited",
                 "shareCount": 5

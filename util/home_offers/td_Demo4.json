@@ -1,0 +1,26 @@
+{
+    "status": [
+        200
+    ],
+    "data": {
+        "title": "Data Cable​",
+        "description": "Buy 2, Get $3 off on each​",
+        "mics": "",
+        "channel": "online",
+        "brand": "Croma",
+        "offerstatus": "notcollected",
+        "cta": "Retail",
+        "offerDuration": "Valid from 00:00 hours 30-Jan-2020 to 23:59 hours 01-March-2020",
+        "availSteps": "<p><ul><i>&nbsp;Collect the offer from TCP App​</i><i>&nbsp;Click on ‘Shop Now’ to buy products of your choice​</i><i>&nbsp;Offer is auto-applied at checkout page ​</i></ul></p>",
+        "imageList": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuhX8ccJSBNJ87ejBdMyeNgnbUF5_iK2OACYg-Xh8da_lU2MB6",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPCpdtaw5bA3BSJJ82I4KW3AVoqp29C-roYcxjXMqYG7Lrl62Z",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbE4vh-5Z_nYcSRZ_nXHL8K9RIg7Fui9UPSi0FeNiiPjUfbMJw"
+        ],
+        "shareDetails": {
+            "type": "exclusive",
+            "shareCount": 0
+        },
+        "termsandconditions": "<p><ul><i>&nbsp;Offer is applicable only on room booking from TCP App​</i><i>&nbsp;Points will be awarded to customer only post checkout​</i><i>&nbsp;This offer cannot be clubbed with any other existing offers ​</i><i>&nbsp;The offer can be availed only once per user​</i><i>&nbsp;In case of product return, amount will be refunded to the customer via the same payment instrument used during purchase​</i><i>&nbsp;In case of product return, loyalty points awarded to the customer will be cancelled​</i><i>&nbsp;TCP & Croma reserve the rights to amend the T&C, end the offer, or call back any of the offers without prior notice​</i></ul></p>"
+    }
+}

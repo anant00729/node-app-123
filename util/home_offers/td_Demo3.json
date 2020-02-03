@@ -1,0 +1,26 @@
+{
+    "status": [
+        200
+    ],
+    "data": {
+        "title": "Nuon Tshirt​",
+        "description" : "Buy 3, Get $5 off on each​",
+        "channel": "offline",
+        "mics": "",
+        "brand": "Westside",
+        "cta": "Retail",
+        "offerstatus": "notcollected",
+        "offerDuration": "Valid from 00:00 hours 11-Jan-2020 to 23:59 hours 31-Jan-2020",
+        "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into any Westside store and select products of your choice associated with the offer.</li><li>&nbsp;Offer is auto-applied at payment counter</li></ol></p>",
+        "imageList": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCoLL4lYhutM3dKUH8SPlJ_U84tVDOjFwm8FmwvhmXguSglqT_",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUEoSirsjuxnkjAbCs9NRDL0uDF7692bT1bYh_0tckwH3zlEU5",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTj0FvII8ZHIXwExnyNUH0Xlq0kZYz9RhToKUWVALdvQixS0ioW"
+        ],
+        "shareDetails": {
+            "type": "limited",
+            "shareCount": 5
+        },
+        "termsandconditions": "<p><ul><li>&nbsp;Offer is applicable only on TCP App or on Westside stores</li><li>&nbsp;This offer cannot be clubbed with any other existing offers</li><li>&nbsp;The offer can be availed only once per user</li><li>&nbsp;In case of product return, the offer received will be deducted from the total bill value </li><li>&nbsp;In case of product return, amount will be refunded to the customer via the same payment instrument used during purchase </li><li>&nbsp;In case of product return, loyalty points awarded to the customer will be cancelled</li><li>&nbsp;Offer is valid only until stock last</li><li>&nbsp; TCP & Westside reserve the rights to amend the T&C, end the offer, or call back any of the offers without prior notice</li></ul></p>"
+    }
+}
