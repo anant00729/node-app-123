@@ -583,6 +583,8 @@ app.get('/getLocationTest', (req,res) => {
 
 
 
+
+
 app.get('/mapLocationAddress', (req,res) => {
     let mainResult = []
     var workbook = xlsx.readFile('location.xlsx');
@@ -661,6 +663,26 @@ app.get('/mapLocationAddress', (req,res) => {
     res.json({ status : 200 , data : mainResult})
 })
 
+
+app.get('/callQuickSort' , (req,res , next) => {
+    const arrList = [10 , 80 , 30 , 90 , 40 , 50 , 70]
+    var pivotElement = arrList[arrList.length-1]
+    for(let i = 0 ; i < arrList.length ; ++i){
+        let j = i + 1
+        if(arrList[i] > pivotElement){
+            let temp = -1
+            temp = arrList[j]
+            arrList[j] = arrList[i]
+            arrList[i] = temp
+        }
+    }
+
+
+    res.json({arrList})
+
+    console.log('arrList', arrList)
+
+})
 
 
 function calDistance(lat1, lon1, lat2, lon2, unit) {

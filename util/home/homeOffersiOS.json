@@ -30,18 +30,17 @@
             "name" : "RECOMMENDED",
             "subOffersList" : [
                 {
-                    "id" : "TD_Demo3",
-                    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCoLL4lYhutM3dKUH8SPlJ_U84tVDOjFwm8FmwvhmXguSglqT_",
-                    "title" : "Nuon Tshirt​",
-                    "description" : "Buy 3, Get $5 off on each​",
-                    "channel" : "offline"
-                    
-                },
-                {
                     "id" : "TD_Demo4",
                     "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuhX8ccJSBNJ87ejBdMyeNgnbUF5_iK2OACYg-Xh8da_lU2MB6",
                     "title" : "Data Cable​",
                     "description" : "Buy 2, Get $3 off on each​",
+                    "channel" : "offline"  
+                },
+                {
+                    "id" : "TD_Demo3",
+                    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCoLL4lYhutM3dKUH8SPlJ_U84tVDOjFwm8FmwvhmXguSglqT_",
+                    "title" : "Nuon Tshirt​",
+                    "description" : "Buy 3, Get $5 off on each​",
                     "channel" : "online"
                 },
                 {
