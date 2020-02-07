@@ -589,6 +589,10 @@ app.get('/getLocationTest', (req,res) => {
 
 
 
+app.get('/testingOnVM', (req,res) => {
+    res.json({status : true , Message : 'Welcome to the Offers Mock API'})
+})
+
 
 
 
