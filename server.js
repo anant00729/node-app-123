@@ -666,23 +666,56 @@ app.get('/mapLocationAddress', (req,res) => {
 
 app.get('/callQuickSort' , (req,res , next) => {
     const arrList = [10 , 80 , 30 , 90 , 40 , 50 , 70]
-    var pivotElement = arrList[arrList.length-1]
-    for(let i = 0 ; i < arrList.length ; ++i){
-        let j = i + 1
-        if(arrList[i] > pivotElement){
+    quickSort(arrList ,  0 , arrList.length-1)
+    res.json({arrList})
+})
+
+
+
+function partition(arr, low , high){
+    let pivot = arr[low]
+    let i = low
+    let j = high
+
+
+
+    while(i < j){
+        
+        do{
+            ++i
+        }while(arr[i] <=  pivot)
+    
+    
+        do{
+            --j
+        }while(arr[j] > pivot)
+
+        if(i < j){
             let temp = -1
-            temp = arrList[j]
-            arrList[j] = arrList[i]
-            arrList[i] = temp
+            temp = arr[i]
+            arr[i] = arr[j]
+            arr[j] = temp 
+
+            
         }
     }
 
+    let temp2 = -1
+    temp2 = arr[low]
+    arr[low] = arr[j]
+    arr[j] = temp2 
+    return j
+}
 
-    res.json({arrList})
+function quickSort(arr ,  low , high ){
 
-    console.log('arrList', arrList)
-
-})
+    if(low < high){
+        let j = partition(arr, low , high)
+        quickSort(arr ,  low , j )
+        quickSort(arr ,  j + 1 , high )
+    }
+    
+}
 
 
 function calDistance(lat1, lon1, lat2, lon2, unit) {
