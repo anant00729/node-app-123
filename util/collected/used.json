@@ -16,7 +16,7 @@
             "totalsavings": "5000 rs",
             "sharedetails": {
                 "type": "exclusive",
-                "shareCount": 0
+                "shareCount": -1
             },
             "offerstatus" : "used",
             "shareCount": 3,
