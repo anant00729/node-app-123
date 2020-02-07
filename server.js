@@ -8,6 +8,13 @@ const http = require('http')
 const fetch = require('node-fetch');
 const async = require('async')
 
+
+//** 
+//VMName : TCP-WI-COS-OFENG1
+//DNS :tcp-wi-cos-ofeng1.westindia.cloudapp.azure.com
+
+
+
 var NodeGeocoder = require('node-geocoder');
 
 
