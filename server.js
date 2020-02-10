@@ -41,6 +41,7 @@ const { performance } = require('perf_hooks')
 const collectedOffers = require('./util/collected/collected.json')
 const usedOffers = require('./util/collected/used.json')
 const expiredOffers = require('./util/collected/expired.json')
+const sharedWithMe = require('./util/collected/shared_with_me.json')
 
 const home_data = require('./util/home2.json')
 const location_data = require('./util/location/getLocation.json')
@@ -514,7 +515,10 @@ app.get('/myofferslist', (req,res)=> {
         res.json(usedOffers)
     }else if(status === 'expired'){
         res.json(expiredOffers)
-    }else {
+    }else if(status === 'shared'){
+        res.json(sharedWithMe)
+    }
+    else {
         res.json(collectedOffers)
     }
 
