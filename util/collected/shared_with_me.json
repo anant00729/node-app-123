@@ -18,7 +18,7 @@
                 "type": "exclusive",
                 "shareCount": -1
             },
-            "offerstatus" : "used",
+            "offerstatus" : "shared",
             "shareCount": 3,
             "remainingtime": " 5 hours",
             "sharedBy" : "Prabhat"
@@ -39,7 +39,7 @@
                 "shareCount": 5
             },
             "used_on": "10-01-2020",
-            "offerstatus" : "used",
+            "offerstatus" : "shared",
             "shareCount": -2,
             "sharedBy" : "Ankit"
         },
@@ -52,7 +52,7 @@
             "channel": "Offline",
             "image": "https://i.imgur.com/2YeffJP.jpg",
             "offerDuration": "Valid from 00:00 hours 01-Jan-2020 to 23:59 hours 11-Jan-2020",
-            "offerstatus" : "expired",
+            "offerstatus" : "shared",
             "sharedBy" : "Prasanta"
         },
         {
@@ -68,7 +68,7 @@
                 "type": "exclusive",
                 "shareCount": 0
             },
-            "offerstatus" : "expired",
+            "offerstatus" : "shared",
             "sharedBy" : "Pramod"
         }
     ]
