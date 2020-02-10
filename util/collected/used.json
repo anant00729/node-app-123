@@ -20,7 +20,8 @@
             },
             "offerstatus" : "used",
             "shareCount": 3,
-            "remainingtime": " 5 hours"
+            "remainingtime": " 5 hours",
+            "sharedBy" : ""
         },
         {
             "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
@@ -39,7 +40,8 @@
             },
             "used_on": "10-01-2020",
             "offerstatus" : "used",
-            "shareCount": -2
+            "shareCount": -2,
+            "sharedBy" : ""
         }
     ]
 }

@@ -11,13 +11,14 @@
             "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuhX8ccJSBNJ87ejBdMyeNgnbUF5_iK2OACYg-Xh8da_lU2MB6",
             "channel": "offline",
             "remainingtime": "7 hours", 
-            "activationtype": "Auto-applied",
+            "activationtype": "",
             "shareDetails": {
                 "type": "limited",
                 "shareCount": 4
             },
             "offerstatus" : "collected",
-            "shareCount": -1
+            "shareCount": -1,
+            "sharedBy" : ""
         },
         {
             "id": "586137cd-828f-4f3c-9afc-1b618c090ed6",
@@ -25,7 +26,7 @@
             "description": "Discount Upto 40%",
             "mics": "",
             "channel": "offline",
-            "activationtype": "Auto-applied",
+            "activationtype": "",
             "image": "https://i.imgur.com/yv9Qjhir.jpg",
             "remainingtime": "5 hours",
             "shareDetails": {
@@ -33,7 +34,8 @@
                 "shareCount": 4
             },
             "offerstatus" : "collected",
-            "shareCount": -1
+            "shareCount": -1,
+            "sharedBy" : ""
         },
         {
             "id": "586137cd-828f-4f3c-9afc-1b628c050ed6",
@@ -49,7 +51,8 @@
                 "shareCount": 5
             },
             "offerstatus" : "collected",
-            "shareCount": 3
+            "shareCount": 3,
+            "sharedBy" : "Prasanta"
         }
         
     ]
