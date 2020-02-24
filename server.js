@@ -345,7 +345,7 @@ const offerOmni = require('./util/offerDetailsOmni.json')
 const offerOffline = require('./util/offerDetailsOffine.json')
 const demo3 = require('./util/home_offers/td_Demo3.json')
 const demo4 = require('./util/home_offers/td_Demo4.json')
-const demo5 = require('./util/home_offers/td_Demo5.json')
+const demo5 = require('./util/home_offers/TD_Demo6.json')
 
 app.post('/offerdetails', (req,res)=>{
 
@@ -360,7 +360,7 @@ app.post('/offerdetails', (req,res)=>{
         res.json(demo3)
     }else if(offerId === 'TD_Demo4'){
         res.json(demo4)
-    }else if(offerId === 'TD_Demo5') {
+    }else if(offerId === 'TD_Demo6') {
         res.json(demo5)
     }
     else {

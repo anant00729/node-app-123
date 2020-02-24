@@ -3,7 +3,7 @@
         200
     ],
     "data": {
-        "id" : "TD_Demo5",
+        "id" : "TD_Demo6",
         "title": "Raga Watch​",
         "description": "Buy 4, Get 10% off on each​",
         "mics": "",
@@ -23,6 +23,6 @@
             "shareCount": 0
         },
         "termsandconditions": "<p><ul><li>&nbsp;Offer is applicable only on TCP App or on Titan stores​</li><li>&nbsp;This offer cannot be clubbed with any other existing offers ​</li><li>&nbsp;The offer can be availed only once per user​</li><li>&nbsp;In case of product return, the offer received will be deducted from the total bill value ​</li><li>&nbsp;In case of product return, amount will be refunded to the customer via the same payment instrument used during purchase​</li><li>&nbsp;In case of product return, loyalty points awarded to the customer will be cancelled​</li><li>&nbsp;Offer is valid only until stock last​</li><li>&nbsp;TCP & Titan reserve the rights to amend the T&C, end the offer, or call back any of the offers without prior notice​</li></ul></p>",
-        "offerShareLink" : "www.tcp.com/TD_Demo5"
+        "offerShareLink" : "www.tcp.com/TD_Demo6"
     }
 }
