@@ -345,7 +345,7 @@ const offerOmni = require('./util/offerDetailsOmni.json')
 const offerOffline = require('./util/offerDetailsOffine.json')
 const demo3 = require('./util/home_offers/td_Demo3.json')
 const demo4 = require('./util/home_offers/td_Demo4.json')
-const demo5 = require('./util/home_offers/TD_Demo5.json')
+const demo5 = require('./util/home_offers/td_Demo5.json')
 
 app.post('/offerdetails', (req,res)=>{
 
