@@ -4,6 +4,9 @@
   let _h1 = document.getElementsByTagName('h1') 
   let _li = document.getElementsByTagName('li') 
   let _spans = document.getElementsByTagName('span')
+  let _img = document.getElementsByTagName('img')
+
+  let imgUrl = "https://i.udemycdn.com/course/750x422/289230_1056_16.jpg"
   
   let _dashboardsidebar = document.getElementsByClassName('dashboard-sidebar js-sticky top-0 px-3 px-md-4 px-lg-4 overflow-auto')[0]
   if(_dashboardsidebar){
@@ -37,7 +40,6 @@
     for(let i = 0 ; i < _para.length ; ++i){
       if(_para[i]){
         _para[i].style['color'] = 'white' 
-        _para[i].innerHTML = 'hello all' 
       }
    }
   }
@@ -48,7 +50,6 @@
     for(let j = 0 ; j < _h1.length ; ++j){
       if(_h1[j]){
         _h1[j].style['color'] = 'white' 
-        _h1[j].innerHTML = 'hello all' 
        }
     }
   }
@@ -58,7 +59,6 @@
     for(let k = 0 ; k < _li.length ; ++k){
       if(_li[k]){
         _li[k].style['color'] = 'white' 
-        _li[k].innerHTML = 'hello all' 
        }
     }
   }
@@ -68,7 +68,6 @@
     for(let l = 0 ; l < _spans.length ; ++l){
       if(_spans[l]){
         _spans[l].style['color'] = 'white' 
-        _spans[l].innerHTML = 'hello all' 
        }
     }
   }
@@ -117,6 +116,11 @@
       console.log('x', x)
     })
   }
+
+  for(let m = 0 ; m < _img.length ; m++){
+    imgUrl[m].src = imgUrl
+  }
+
   
 })()
 
