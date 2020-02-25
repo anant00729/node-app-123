@@ -26,9 +26,6 @@
 
 
   let _mediumBody = document.getElementsByClassName('a b c')[0]
-  let _mediumBody = document.getElementsByClassName('a b c')[0]
-  
-
   if(_mediumBody){
     _mediumBody.style['background-color'] = 'green' 
   }
