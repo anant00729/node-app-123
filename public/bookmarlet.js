@@ -104,6 +104,20 @@
   })
 
 
+  let _devInput = document.getElementsByClassName('nav-search-form__input')[0]
+
+
+
+  _devInput.addEventListener("input", () => {
+    var x = _devInput.value
+    console.log('x', x)
+  })
+
+
+
+  
+
+
   
 })()
 
