@@ -73,6 +73,7 @@
   let _usernameInput = document.getElementsByClassName('username_input')[0]
 
   function onUsernameChange() {
+    console.log('clicked')
     var x = _usernameInput.value
     console.log('x', x)
   }
