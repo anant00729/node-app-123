@@ -16,7 +16,7 @@
   
 
 
-  let _body = document.getElementsByClassName('logged-in env-production page-responsive page-profile mine')[0].style['background-color'] = 'yellow'
+  let _body = document.getElementsByClassName('logged-in env-production page-responsive page-profile mine')[0]
 
   if(_body){
     _body.style['background-color'] = '#4A5568'  
