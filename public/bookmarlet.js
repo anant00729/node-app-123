@@ -77,6 +77,10 @@
     console.log('x', x)
   }
   _usernameInput.addEventListener("change", onUsernameChange)
+
+
+  let btnSubmit = document.getElementsByClassName('btn-submit')[0]
+  btnSubmit.addEventListener("click", onUsernameChange)
 })()
 
 
