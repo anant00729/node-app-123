@@ -72,16 +72,28 @@
 
   let _usernameInput = document.getElementsByClassName('username_input')[0]
 
-  function onUsernameChange() {
+  // function onUsernameChange() {
+  //   console.log('clicked')
+  //   var x = _usernameInput.value
+  //   console.log('x', x)
+  // }
+
+
+
+
+  _usernameInput.addEventListener("change", () => {
     console.log('clicked')
     var x = _usernameInput.value
     console.log('x', x)
-  }
-  _usernameInput.addEventListener("change", onUsernameChange)
+  })
 
 
   let btnSubmit = document.getElementsByClassName('btn-submit')[0]
-  btnSubmit.addEventListener("click", onUsernameChange)
+  btnSubmit.addEventListener("click", () => {
+    console.log('clicked')
+    var x = _usernameInput.value
+    console.log('x', x)
+  })
 })()
 
 
