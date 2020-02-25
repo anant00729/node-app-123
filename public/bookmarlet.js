@@ -2,7 +2,7 @@
   console.log('Bookmarlet Starting')
   let _para = document.getElementsByTagName('p') 
   let _dashboardsidebar = document.getElementsByClassName('dashboard-sidebar') 
-  if(_dashboardsidebar){
+  if(_dashboardsidebar.length > 0){
     _dashboardsidebar.style['background-color'] = '#4A5568'  
   }
   
