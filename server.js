@@ -100,12 +100,15 @@ const PORT = process.env.PORT || 8084
 
 
 
-//app.use(express.static('./public'))
-//app.use(express.static('./public/build'))
+app.use(express.static('./public'))
+app.use(express.static('./public/build'))
 
 //app.use(express.static(path.join(__dirname, 'public/build')));
 // Set static folder
 
+app.get('/getBookmarkLet', (req,res)=> {
+    res.send('./public/bookmarlet.js')
+})
 
 
 
