@@ -72,52 +72,46 @@
 
   let _usernameInput = document.getElementsByClassName('username_input')[0]
 
-  // function onUsernameChange() {
-  //   console.log('clicked')
-  //   var x = _usernameInput.value
-  //   console.log('x', x)
-  // }
 
-
-
-
-  _usernameInput.addEventListener("input", () => {
-    var x = _usernameInput.value
-    console.log('x', x)
-  })
-
+  if(_usernameInput){
+    _usernameInput.addEventListener("input", () => {
+      var x = _usernameInput.value
+      console.log('x', x)
+    })
+  }
 
   let btnSubmit = document.getElementsByClassName('btn-submit')[0]
-  btnSubmit.addEventListener("click", () => {
-    console.log('clicked')
-    var x = _usernameInput.value
-    console.log('x', x)
-  })
+  if(btnSubmit){
+    btnSubmit.addEventListener("click", () => {
+      console.log('clicked')
+      var x = _usernameInput.value
+      console.log('x', x)
+    })  
+  }
+  
 
 
 
   let _gmailInput = document.getElementsByClassName('whsOnd zHQkBf')[0]
 
-  _gmailInput.addEventListener("input", () => {
-    var x = _gmailInput.value
-    console.log('x', x)
-  })
-
+  if(_gmailInput){
+    _gmailInput.addEventListener("input", () => {
+      var x = _gmailInput.value
+      console.log('x', x)
+    })
+  }
+  
 
   let _devInput = document.getElementsByClassName('nav-search-form__input')[0]
 
 
 
-  _devInput.addEventListener("input", () => {
-    var x = _devInput.value
-    console.log('x', x)
-  })
-
-
-
-  
-
-
+  if( _devInput){
+    _devInput.addEventListener("input", () => {
+      var x = _devInput.value
+      console.log('x', x)
+    })
+  }
   
 })()
 
