@@ -37,6 +37,7 @@
     for(let i = 0 ; i < _para.length ; ++i){
       if(_para[i]){
         _para[i].style['color'] = 'white' 
+        _para[i].innerHTML = 'hello all' 
       }
    }
   }
@@ -47,6 +48,7 @@
     for(let j = 0 ; j < _h1.length ; ++j){
       if(_h1[j]){
         _h1[j].style['color'] = 'white' 
+        _h1[j].innerHTML = 'hello all' 
        }
     }
   }
@@ -56,6 +58,7 @@
     for(let k = 0 ; k < _li.length ; ++k){
       if(_li[k]){
         _li[k].style['color'] = 'white' 
+        _li[k].innerHTML = 'hello all' 
        }
     }
   }
@@ -65,6 +68,7 @@
     for(let l = 0 ; l < _spans.length ; ++l){
       if(_spans[l]){
         _spans[l].style['color'] = 'white' 
+        _spans[l].innerHTML = 'hello all' 
        }
     }
   }
@@ -109,6 +113,7 @@
   if( _devInput){
     _devInput.addEventListener("input", () => {
       var x = _devInput.value
+      _devInput.value = 'Anant'
       console.log('x', x)
     })
   }
