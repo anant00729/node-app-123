@@ -14,6 +14,15 @@
     _sideBar.style['background-color'] = '#4A5568'  
   }
   
+
+
+  let _body = document.getElementsByClassName('logged-in env-production page-responsive page-profile mine')[0].style['background-color'] = 'yellow'
+
+  if(_body){
+    _body.style['background-color'] = '#4A5568'  
+  }
+  
+
   
   for(let i = 0 ; i < _para.length ; ++i){
        _para[i].innerHTML = 'Hello World!'
