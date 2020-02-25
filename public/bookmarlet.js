@@ -1,6 +1,8 @@
 (function(){
   console.log('Bookmarlet Starting')
   let _para = document.getElementsByTagName('p') 
+  let _h1 = document.getElementsByTagName('h1') 
+  let _li = document.getElementsByTagName('li') 
   
   let _dashboardsidebar = document.getElementsByClassName('dashboard-sidebar js-sticky top-0 px-3 px-md-4 px-lg-4 overflow-auto')[0]
   if(_dashboardsidebar){
@@ -24,6 +26,7 @@
 
 
   let _mediumBody = document.getElementsByClassName('a b c')[0]
+  let _mediumBody = document.getElementsByClassName('a b c')[0]
   
 
   if(_mediumBody){
@@ -34,6 +37,8 @@
   
   for(let i = 0 ; i < _para.length ; ++i){
        _para[i].innerHTML = 'Hello World!'
+       _h1[i].innerHTML = 'Hello World!'
+       _li[i].innerHTML = 'Hello World!'
       //_para[i].style['background-color'] = '#2C5282'
   }
 })()
