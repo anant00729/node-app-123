@@ -76,7 +76,6 @@
     var x = _usernameInput.value
     console.log('x', x)
   }
-
   _usernameInput.addEventListener("change", onUsernameChange)
 })()
 
