@@ -21,6 +21,14 @@
   if(_body){
     _body.style['background-color'] = '#4A5568'  
   }
+
+
+  let _mediumBody = document.getElementsByClassName('a b c')[0]
+  
+
+  if(_mediumBody){
+    _mediumBody.style['background-color'] = 'green' 
+  }
   
 
   
