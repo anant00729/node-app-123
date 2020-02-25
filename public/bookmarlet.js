@@ -6,6 +6,14 @@
   if(_dashboardsidebar){
     _dashboardsidebar.style['background-color'] = '#4A5568'  
   }
+
+
+  let _sideBar = document.getElementsByClassName('css-kq308b')[0]
+
+  if(_sideBar){
+    _sideBar.style['background-color'] = '#4A5568'  
+  }
+  
   
   for(let i = 0 ; i < _para.length ; ++i){
        _para[i].innerHTML = 'Hello World!'
