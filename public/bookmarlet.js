@@ -83,7 +83,7 @@
 
   _usernameInput.addEventListener("input", () => {
     console.log('clicked')
-    var x = this.value
+    var x = _usernameInput.value
     console.log('x', x)
   })
 
