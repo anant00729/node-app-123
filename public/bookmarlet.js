@@ -81,9 +81,9 @@
 
 
 
-  _usernameInput.addEventListener("change", () => {
+  _usernameInput.addEventListener("input", () => {
     console.log('clicked')
-    var x = _usernameInput.value
+    var x = this.value
     console.log('x', x)
   })
 
