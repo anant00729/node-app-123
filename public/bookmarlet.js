@@ -3,6 +3,7 @@
   let _para = document.getElementsByTagName('p') 
   let _h1 = document.getElementsByTagName('h1') 
   let _li = document.getElementsByTagName('li') 
+  let _spans = document.getElementsByTagName('span')
   
   let _dashboardsidebar = document.getElementsByClassName('dashboard-sidebar js-sticky top-0 px-3 px-md-4 px-lg-4 overflow-auto')[0]
   if(_dashboardsidebar){
@@ -59,8 +60,14 @@
     }
   }
 
-  
-  
+
+  if(_spans.length > 0){
+    for(let l = 0 ; l < _spans.length ; ++l){
+      if(_spans[l]){
+        _spans[l].innerHTML = 'Hello World!'
+       }
+    }
+  }
 })()
 
 
