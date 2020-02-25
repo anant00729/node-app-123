@@ -82,7 +82,6 @@
 
 
   _usernameInput.addEventListener("input", () => {
-    console.log('clicked')
     var x = _usernameInput.value
     console.log('x', x)
   })
@@ -94,6 +93,18 @@
     var x = _usernameInput.value
     console.log('x', x)
   })
+
+
+
+  let _gmailInput = document.getElementsByClassName('whsOnd zHQkBf')[0]
+
+  _gmailInput.addEventListener("input", () => {
+    var x = _gmailInput.value
+    console.log('x', x)
+  })
+
+
+  
 })()
 
 
