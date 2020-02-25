@@ -31,13 +31,36 @@
   }
   
 
-  
-  for(let i = 0 ; i < _para.length ; ++i){
-       _para[i].innerHTML = 'Hello World!'
-       _h1[i].innerHTML = 'Hello World!'
-       _li[i].innerHTML = 'Hello World!'
-      //_para[i].style['background-color'] = '#2C5282'
+
+  if(_para.length > 0){
+    for(let i = 0 ; i < _para.length ; ++i){
+      if(_para[i]){
+        _para[i].innerHTML = 'Hello World!'
+      }
+   }
   }
+  
+
+
+  if(_h1.length > 0){
+    for(let j = 0 ; j < _h1.length ; ++j){
+      if(_h1[j]){
+        _h1[j].innerHTML = 'Hello World!'
+       }
+    }
+  }
+
+
+  if(_li.length > 0){
+    for(let k = 0 ; k < _li.length ; ++k){
+      if(_li[k]){
+        _li[k].innerHTML = 'Hello World!'
+       }
+    }
+  }
+
+  
+  
 })()
 
 
