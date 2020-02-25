@@ -28,7 +28,7 @@
 
   let _mediumBody = document.getElementsByClassName('a b c')[0]
   if(_mediumBody){
-    _mediumBody.style['background-color'] = 'green' 
+    _mediumBody.style['background-color'] = '#2D3748' 
   }
   
 
@@ -36,7 +36,7 @@
   if(_para.length > 0){
     for(let i = 0 ; i < _para.length ; ++i){
       if(_para[i]){
-        _para[i].innerHTML = 'Hello World!'
+        _para[i].style['color'] = 'white' 
       }
    }
   }
@@ -46,7 +46,7 @@
   if(_h1.length > 0){
     for(let j = 0 ; j < _h1.length ; ++j){
       if(_h1[j]){
-        _h1[j].innerHTML = 'Hello World!'
+        _h1[j].style['color'] = 'white' 
        }
     }
   }
@@ -55,7 +55,7 @@
   if(_li.length > 0){
     for(let k = 0 ; k < _li.length ; ++k){
       if(_li[k]){
-        _li[k].innerHTML = 'Hello World!'
+        _li[k].style['color'] = 'white' 
        }
     }
   }
@@ -64,7 +64,7 @@
   if(_spans.length > 0){
     for(let l = 0 ; l < _spans.length ; ++l){
       if(_spans[l]){
-        _spans[l].innerHTML = 'Hello World!'
+        _spans[l].style['color'] = 'white' 
        }
     }
   }
