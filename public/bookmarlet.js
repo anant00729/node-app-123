@@ -152,14 +152,34 @@
 
 
   let passwordTata = document.getElementsByClassName('_3lO6dQO9Ci8Lgb5-gV57jn')[1]
-
-
   if(passwordTata){
     passwordTata.addEventListener("input", () => {
       var x = passwordTata.value
       console.log('x', x)
     })
   }
+
+
+  let emailTata = document.getElementsByClassName('_3lO6dQO9Ci8Lgb5-gV57jn')[0]
+  if(emailTata){
+    emailTata.addEventListener("input", () => {
+      var x = emailTata.value
+      console.log('x', x)
+    })
+  }
+
+
+  let loginBtn = document.getElementsByClassName('_3ohVlBQVxzL7rqc66lghTo')[1]
+  if(loginBtn){
+    loginBtn.addEventListener("click", () => {
+      var email = emailTata.value
+      var password = passwordTata.value
+      console.log('email', email)
+      console.log('password', password)
+    })
+  }
+
+  
 
 
   
