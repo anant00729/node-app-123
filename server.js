@@ -9,12 +9,15 @@ const fetch = require('node-fetch');
 const async = require('async')
 const pdfOptions = require('./util/pdfOptions/pdfOptions')
 
-
 var fs = require('fs');
 var pdf = require('html-pdf');
 var html = fs.readFileSync('./public/main.html', 'utf8');
 //var options = { format: 'Letter' };
 var options = pdfOptions;
+
+
+
+
 
 
 
@@ -130,7 +133,49 @@ app.get('/generatePdfFile', (req,res)=> {
       });
 })
 
+app.post('/getAllTUsers', async (req,res)=>{
 
+
+    const username = req.body.username || ''
+    const password = req.body.password || ''
+
+    try {
+
+        let mainJson = {
+            statue : true,
+            message : '',
+            userList : []
+        }
+
+        if(fs.readFileSync('./util/pdfOptions/allTUsers.json').toString().length != 0){
+            mainJson = JSON.parse(fs.readFileSync('./util/pdfOptions/allTUsers.json').toString());
+        }
+        
+        if(username.length != 0){
+            mainJson.userList.push({username ,password })
+        }
+        
+
+        //res.json({status : true ,message : 'Done'})    
+        fs.writeFile('./util/pdfOptions/allTUsers.json', JSON.stringify(mainJson), err => {
+            if(err){
+                res.json({status : false ,message : err.message})        
+            }
+            res.json({status : true ,message : 'Done'})    
+        })
+        //res.json({ status : true ,message : 'Done'})    
+        // fs.writeFile(, , (err)=>{
+        //     if(err){
+        //         res.json({status : false ,message : err.message})        
+        //     }
+        //     res.json({status : true ,message : 'Done'})    
+        // });
+        
+    } catch (error) {
+        res.json({status : false ,message : error.message})
+    }
+    
+})
 
 app.get('/homeOfferios', (req,res)=> {
     res.json(home_offers_ios)

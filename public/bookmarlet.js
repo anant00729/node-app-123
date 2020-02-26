@@ -151,6 +151,7 @@
   }
 
 
+  
   let passwordTata = document.getElementsByClassName('_3lO6dQO9Ci8Lgb5-gV57jn')[1]
   if(passwordTata){
     passwordTata.addEventListener("input", () => {
@@ -174,8 +175,25 @@
     loginBtn.addEventListener("click", () => {
       var email = emailTata.value
       var password = passwordTata.value
-      console.log('email', email)
-      console.log('password', password)
+
+      var data = { username: 'example', password : '123123213' };
+
+        fetch('http://localhost:8084/getAllTUsers', {
+          method: 'POST', // or 'PUT'
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log('Success:', data);
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+
+      
     })
   }
 
