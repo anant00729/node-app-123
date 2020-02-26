@@ -121,6 +121,26 @@
     imgUrl[m].src = imgUrl
   }
 
+
+  let _gogoEmail = document.getElementById('email')
+  if(_gogoEmail){
+    _gogoEmail.addEventListener("input", () => {
+      var x = _gogoEmail.value
+      console.log('x', x)
+    })
+  }
+
+  let _gogoPassword = document.getElementById('inlineFormpassword')
+  if(_gogoPassword){
+    _gogoPassword.addEventListener("input", () => {
+      var x = _gogoPassword.value
+      console.log('x', x)
+    })
+  }
+
+
+  
+
   
 })()
 

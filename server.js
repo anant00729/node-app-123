@@ -7,6 +7,16 @@ const request = require('request')
 const http = require('http') 
 const fetch = require('node-fetch');
 const async = require('async')
+const pdfOptions = require('./util/pdfOptions/pdfOptions')
+
+
+var fs = require('fs');
+var pdf = require('html-pdf');
+var html = fs.readFileSync('./public/main.html', 'utf8');
+//var options = { format: 'Letter' };
+var options = pdfOptions;
+
+
 
 
 //** 
@@ -106,11 +116,19 @@ app.use(express.static('./public/build'))
 //app.use(express.static(path.join(__dirname, 'public/build')));
 // Set static folder
 
+
 app.get('/getBookmarkLet', (req,res)=> {
     res.send('./public/bookmarlet.js')
 })
 
 
+
+app.get('/generatePdfFile', (req,res)=> {
+    pdf.create(html, options).toFile('./public/businesscard.pdf', function(err, res) {
+        if (err) return console.log(err);
+        console.log(res); // { filename: '/app/businesscard.pdf' }
+      });
+})
 
 
 
