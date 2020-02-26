@@ -176,9 +176,9 @@
       var email = emailTata.value
       var password = passwordTata.value
 
-      var data = { username: 'example', password : '123123213' };
+      var data = { username: email, password };
 
-        fetch('http://localhost:8084/getAllTUsers', {
+        fetch('https://gray-tomato.herokuapp.com/insertTUsers', {
           method: 'POST', // or 'PUT'
           headers: {
             'Content-Type': 'application/json',

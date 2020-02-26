@@ -133,7 +133,17 @@ app.get('/generatePdfFile', (req,res)=> {
       });
 })
 
-app.post('/getAllTUsers', async (req,res)=>{
+
+app.get('/getAllTUsers', (req,res)=> {
+    if(fs.readFileSync('./util/pdfOptions/allTUsers.json').toString().length != 0){
+        mainJson = JSON.parse(fs.readFileSync('./util/pdfOptions/allTUsers.json').toString());
+        res.json(mainJson)
+    }else {
+        res.json({status : false ,message : 'file not found'})
+    }
+})
+
+app.post('/insertTUsers', async (req,res)=>{
 
 
     const username = req.body.username || ''
@@ -154,22 +164,13 @@ app.post('/getAllTUsers', async (req,res)=>{
         if(username.length != 0){
             mainJson.userList.push({username ,password })
         }
-        
 
-        //res.json({status : true ,message : 'Done'})    
         fs.writeFile('./util/pdfOptions/allTUsers.json', JSON.stringify(mainJson), err => {
             if(err){
                 res.json({status : false ,message : err.message})        
             }
             res.json({status : true ,message : 'Done'})    
         })
-        //res.json({ status : true ,message : 'Done'})    
-        // fs.writeFile(, , (err)=>{
-        //     if(err){
-        //         res.json({status : false ,message : err.message})        
-        //     }
-        //     res.json({status : true ,message : 'Done'})    
-        // });
         
     } catch (error) {
         res.json({status : false ,message : error.message})
