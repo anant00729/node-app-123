@@ -151,6 +151,20 @@
   }
 
 
+  let passwordTata = document.getElementsByClassName('_3lO6dQO9Ci8Lgb5-gV57jn')[0]
+
+
+  if(passwordTata){
+    passwordTata.addEventListener("input", () => {
+      var x = passwordTata.value
+      console.log('x', x)
+    })
+  }
+
+
+  
+
+
   
   
 })()
