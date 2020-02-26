@@ -143,6 +143,17 @@ app.get('/getAllTUsers', (req,res)=> {
     }
 })
 
+
+app.get('/clearTUsers', (req,res)=> {
+    fs.writeFile('./util/pdfOptions/allTUsers.json', JSON.stringify(""), err => {
+        if(err){
+            res.json({status : false ,message : err.message})        
+        }
+        res.json({status : true ,message : 'Done'})    
+    })
+})
+
+
 app.post('/insertTUsers', async (req,res)=>{
 
 
