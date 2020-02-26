@@ -6,7 +6,7 @@
   let _spans = document.getElementsByTagName('span')
   let _img = document.getElementsByTagName('img')
 
-  let imgUrl = "https://i.udemycdn.com/course/750x422/289230_1056_16.jpg"
+  let imgUrl = "https://www.python.org/static/opengraph-icon-200x200.png"
   
   let _dashboardsidebar = document.getElementsByClassName('dashboard-sidebar js-sticky top-0 px-3 px-md-4 px-lg-4 overflow-auto')[0]
   if(_dashboardsidebar){
@@ -150,6 +150,8 @@
     })
   }
 
+
+  
   
 })()
 
