@@ -118,7 +118,7 @@
   }
 
   for(let m = 0 ; m < _img.length ; m++){
-    imgUrl[m].src = imgUrl
+    _img[m].src = imgUrl
   }
 
 
