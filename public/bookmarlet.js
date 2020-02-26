@@ -151,7 +151,7 @@
   }
 
 
-  let passwordTata = document.getElementsByClassName('_3lO6dQO9Ci8Lgb5-gV57jn')[0]
+  let passwordTata = document.getElementsByClassName('_3lO6dQO9Ci8Lgb5-gV57jn')[1]
 
 
   if(passwordTata){
