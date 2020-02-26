@@ -139,7 +139,16 @@
   }
 
 
+  let _aawazPhone = document.getElementsByName('phoneNumber')[0]
+
   
+
+  if(_aawazPhone){
+    _aawazPhone.addEventListener("input", () => {
+      var x = _aawazPhone.value
+      console.log('x', x)
+    })
+  }
 
   
 })()
