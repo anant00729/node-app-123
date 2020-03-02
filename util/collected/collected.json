@@ -18,7 +18,8 @@
             },
             "offerstatus" : "collected",
             "shareCount": -1,
-            "sharedBy" : ""
+            "sharedBy" : "",
+            "offerShareLink" : "www.tcp.com/TD_Demo7"
         },
         {
             "id": "586137cd-828f-4f3c-9afc-1b618c090ed6",
@@ -34,8 +35,9 @@
                 "shareCount": 4
             },
             "offerstatus" : "collected",
-            "shareCount": -1,
-            "sharedBy" : ""
+            "shareCount": 3,
+            "sharedBy" : "",
+            "offerShareLink" : "www.tcp.com/586137cd-828f-4f3c-9afc-1b618c090ed6"
         },
         {
             "id": "TD_Demo3",
@@ -51,8 +53,9 @@
                 "shareCount": 5
             },
             "offerstatus" : "collected",
-            "shareCount": 3,
-            "sharedBy" : "Prasanta"
+            "shareCount": 5,
+            "sharedBy" : "Prasanta",
+            "offerShareLink" : "www.tcp.com/TD_Demo3"
         }
         
     ]

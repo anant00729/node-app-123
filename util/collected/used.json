@@ -21,7 +21,8 @@
             "offerstatus" : "used",
             "shareCount": 3,
             "remainingtime": " 5 hours",
-            "sharedBy" : ""
+            "sharedBy" : "",
+            "offerShareLink" : "www.tcp.com/d21ed022-b54b-4657-8b17-9da124a06b0c"
         },
         {
             "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
@@ -41,7 +42,8 @@
             "used_on": "10-01-2020",
             "offerstatus" : "used",
             "shareCount": -2,
-            "sharedBy" : ""
+            "sharedBy" : "",
+            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc"
         }
     ]
 }

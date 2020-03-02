@@ -426,9 +426,23 @@ app.get('/test1', async (req,res)=> {
 const offerOnline = require('./util/offerDetailsOnline.json')
 const offerOmni = require('./util/offerDetailsOmni.json')
 const offerOffline = require('./util/offerDetailsOffine.json')
+
+const offerOnlineActual = require('./util/home_offers_actual/offerDetailsOnline.json')
+const offerOmniActual = require('./util/home_offers_actual/offerDetailsOmni.json')
+const offerOfflineActual = require('./util/home_offers_actual/offerDetailsOffine.json')
+
+
 const demo3 = require('./util/home_offers/td_Demo3.json')
 const demo4 = require('./util/home_offers/td_Demo4.json')
 const demo5 = require('./util/home_offers/td_Demo5.json')
+
+
+
+const demo3Actual = require('./util/home_offers_actual/td_Demo3.json')
+const demo4Actual = require('./util/home_offers_actual/td_Demo4.json')
+const demo5Actual = require('./util/home_offers_actual/td_Demo5.json')
+
+
 
 app.post('/offerdetails', (req,res)=>{
 
@@ -451,6 +465,32 @@ app.post('/offerdetails', (req,res)=>{
     }
     
 })
+
+
+
+app.post('/offerdetailsNew', (req,res)=>{
+
+    const offerId = req.body.offerId
+
+    if(offerId === '586137cd-828f-4f3c-9afc-1b618c090ed6'){
+        res.json(offerOfflineActual)
+    }else if(offerId === 'd21ed022-b54b-4657-8b17-9da124a06b0c'){
+        res.json(offerOnlineActual)
+    }
+    else if(offerId === 'TD_Demo3'){
+        res.json(demo3Actual)
+    }else if(offerId === 'TD_Demo4'){
+        res.json(demo4Actual)
+    }else if(offerId === 'TD_Demo6') {
+        res.json(demo5Actual)
+    }
+    else {
+        res.json(offerOmniActual)
+    }
+    
+})
+
+
 
 app.get('/homeOffers',(req,res) => {
     res.json(home_offers)

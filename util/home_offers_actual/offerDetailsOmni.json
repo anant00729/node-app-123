@@ -1,0 +1,55 @@
+{
+    "offerDetailsResponse": {
+        "statusCode": "200",
+        "offerDetailsList": [
+            {
+                "id" : "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
+                "status": "Active",
+                "offerImageUrl": "/image/cms/promo.jpeg",
+                "offerType": "MULTIBUYPRODUCT",
+                "benefitType": "INSTANT DISCOUNT",
+                "expiryDate": "Valid from 00:00 hours 15-Jan-2020 to 23:59 hours 02-Feb-2020",
+                "description": "Buy 2 Get 1",
+                "offerChannel": [
+                    {
+                        "name": "STORE",
+                        "channelIds": [
+                            "1211211",
+                            "1211212",
+                            "1211221",
+                            "1211222",
+                            "1211311",
+                            "1211312",
+                            "1211321",
+                            "1211322"
+                        ]
+                    }
+                ],
+                "brandDetails": [
+                    "CROMA"
+                ],
+                "offerRedemption": {
+                    "customerActivationRequired": false,
+                    "couponCodeDetails": "GENERIC",
+                    "couponCode": " "
+                },
+                "sharabilityDetails": {
+                    "isSharable": true,
+                    "offerShareType": "LIMITED",
+                    "totalShares": 7
+                },
+                "termsAndConditons": "<p><ul><li>&nbsp;Offer is applicable only on TCP App or on Westside stores</li><li>&nbsp;This offer cannot be clubbed with any other existing offers</li><li>&nbsp;The offer can be availed only once per user</li><li>&nbsp;In case of product return, the offer received will be deducted from the total bill value </li><li>&nbsp;In case of product return, amount will be refunded to the customer via the same payment instrument used during purchase </li><li>&nbsp;In case of product return, loyalty points awarded to the customer will be cancelled</li><li>&nbsp;Offer is valid only until stock last</li><li>&nbsp; TCP & Westside reserve the rights to amend the T&C, end the offer, or call back any of the offers without prior notice</li></ul></p>",
+                "cta": "Retail",
+                "channel": "omni",
+                "imageList": [
+                    "https://i.imgur.com/E9SR15V.jpg",
+                    "https://i.imgur.com/E9SR15V.jpg",
+                    "https://i.imgur.com/E9SR15V.jpg"
+                ],
+                "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into any Westside store and select products of your choice associated with the offer.</li><li>&nbsp;Offer is auto-applied at payment counter</li></ol></p>",
+                "title": "Utsa Kurta",
+                "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc"
+            }
+        ]
+    }
+}

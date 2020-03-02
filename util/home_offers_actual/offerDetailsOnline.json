@@ -1,0 +1,56 @@
+{
+    "offerDetailsResponse": {
+        "statusCode": "200",
+        "offerDetailsList": [
+            {
+                "id": "d21ed022-b54b-4657-8b17-9da124a06b0c",
+                "status": "Active",
+                "offerImageUrl": "/image/cms/promo.jpeg",
+                "offerType": "MULTIBUYPRODUCT",
+                "benefitType": "INSTANT DISCOUNT",
+                "expiryDate": "Valid from 00:00 hours 30-Jan-2020 to 23:59 hours 01-March-2020",
+                "termsAndConditons": "T&C",
+                "description": "Get 10x points on stay",
+                "offerChannel": [
+                    {
+                        "name": "STORE",
+                        "channelIds": [
+                            "1211211",
+                            "1211212",
+                            "1211221",
+                            "1211222",
+                            "1211311",
+                            "1211312",
+                            "1211321",
+                            "1211322"
+                        ]
+                    }
+                ],
+                "brandDetails": [
+                    "CROMA"
+                ],
+                "offerRedemption": {
+                    "customerActivationRequired": false,
+                    "couponCodeDetails": "GENERIC",
+                    "couponCode": " "
+                },
+                "sharabilityDetails": {
+                    "isSharable": true,
+                    "offerShareType": "LIMITED",
+                    "totalShares": 7
+                },
+                "title": "Taj Mahal Palace",
+                "channel": "online",
+                "cta": "Hospitality",
+                "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App</li><li>&nbsp; Click on ‘Book Now’ to start booking a room of your choice during valid offer period in the applicable hotel</li><li>&nbsp; Offer is auto-applied at checkout page</li></ol></p>",
+                "imageList": [
+                    "https://i.imgur.com/OXKV1vL.jpg",
+                    "https://i.imgur.com/OXKV1vL.jpg",
+                    "https://i.imgur.com/OXKV1vL.jpg"
+                ],
+                "termsandconditions": "<p><ul><li>&nbsp; Offer is applicable only on room booking from TCP App</li><li>&nbsp;Points will be awarded to customer only post checkout</li><li>&nbsp;This offer cannot be clubbed with any other existing offers</li><li>&nbsp;The offer can be availed only once per user</li><li>&nbsp;In case of booking cancellation, amount will be refunded to the customer via the same payment instrument used during purchase (no loyalty points will be awarded)</li><li>&nbsp;Offer is subject to room availability and not valid on special events or black out dates</li><li>&nbsp;TCP & IHCL reserve the rights to amend the T&C, end the offer, or call back any of the offers without prior notice</li></ul></p>",
+        "offerShareLink" : "www.tcp.com/d21ed022-b54b-4657-8b17-9da124a06b0c"
+            }
+        ]
+    }
+}
