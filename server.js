@@ -469,8 +469,9 @@ app.post('/offerdetails', (req,res)=>{
 
 
 app.post('/offerdetailsNew', (req,res)=>{
+    
 
-    const offerId = req.body.offerId
+    const offerId = req.body.offerDetailsRequest.offerId
 
     if(offerId === '586137cd-828f-4f3c-9afc-1b618c090ed6'){
         res.json(offerOfflineActual)
