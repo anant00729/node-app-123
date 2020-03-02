@@ -455,7 +455,7 @@ app.post('/offerdetails', (req,res)=>{
     }
     else if(offerId === 'TD_Demo3'){
         res.json(demo3)
-    }else if(offerId === 'TD_Demo4'){
+    }else if(offerId === 'TD_Demo7'){
         res.json(demo4)
     }else if(offerId === 'TD_Demo6') {
         res.json(demo5)
@@ -480,7 +480,7 @@ app.post('/offerdetailsNew', (req,res)=>{
     }
     else if(offerId === 'TD_Demo3'){
         res.json(demo3Actual)
-    }else if(offerId === 'TD_Demo4'){
+    }else if(offerId === 'TD_Demo7'){
         res.json(demo4Actual)
     }else if(offerId === 'TD_Demo6') {
         res.json(demo5Actual)
