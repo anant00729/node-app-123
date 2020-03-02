@@ -811,6 +811,17 @@ app.get('/callQuickSort' , (req,res , next) => {
 
 
 
+app.post('/testQuery' , (req,res , next) => {
+
+    const name = req.query.name || ''
+    console.log('name', name)
+
+
+    res.json({done : true})
+})
+
+
+
 function partition(arr, low , high){
     let pivot = arr[low]
     let i = low
@@ -870,6 +881,9 @@ function calDistance(lat1, lon1, lat2, lon2, unit) {
     if (unit=="N") { dist = dist * 0.8684 }
     return dist
 }
+
+
+
 
 
 function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
