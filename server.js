@@ -453,7 +453,7 @@ app.post('/offerdetails', (req,res)=>{
     }else if(offerId === 'd21ed022-b54b-4657-8b17-9da124a06b0c'){
         res.json(offerOnline)
     }
-    else if(offerId === 'TD_Demo3'){
+    else if(offerId === 'TD_Demo11'){
         res.json(demo3)
     }else if(offerId === 'TD_Demo7'){
         res.json(demo4)
@@ -478,7 +478,7 @@ app.post('/offerdetailsNew', (req,res)=>{
     }else if(offerId === 'd21ed022-b54b-4657-8b17-9da124a06b0c'){
         res.json(offerOnlineActual)
     }
-    else if(offerId === 'TD_Demo3'){
+    else if(offerId === 'TD_Demo11'){
         res.json(demo3Actual)
     }else if(offerId === 'TD_Demo7'){
         res.json(demo4Actual)

@@ -40,7 +40,7 @@
             "offerShareLink" : "www.tcp.com/586137cd-828f-4f3c-9afc-1b618c090ed6"
         },
         {
-            "id": "TD_Demo3",
+            "id": "TD_Demo11",
             "title": "Nuon Tshirt​",
             "description": "Buy 3, Get $5 off on each​",
             "mics": "",
@@ -50,10 +50,10 @@
             "remainingtime": "2  hours",
             "shareDetails": {
                 "type": "limited",
-                "shareCount": 5
+                "shareCount": 700
             },
             "offerstatus" : "collected",
-            "shareCount": 5,
+            "shareCount": 700,
             "sharedBy" : "Prasanta",
             "offerShareLink" : "www.tcp.com/TD_Demo3"
         }
