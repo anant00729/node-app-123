@@ -34,21 +34,24 @@
                     "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuhX8ccJSBNJ87ejBdMyeNgnbUF5_iK2OACYg-Xh8da_lU2MB6",
                     "title" : "Data Cable​",
                     "description" : "Buy 2, Get $3 off on each​",
-                    "channel" : "offline"  
+                    "channel" : "offline" ,
+                    "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
                 },
                 {
                     "id" : "TD_Demo11",
                     "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCoLL4lYhutM3dKUH8SPlJ_U84tVDOjFwm8FmwvhmXguSglqT_",
                     "title" : "Nuon Tshirt​",
                     "description" : "Buy 3, Get $5 off on each​",
-                    "channel" : "online"
+                    "channel" : "online",
+                    "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
                 },
                 {
                     "id" : "TD_Demo6",
                     "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRydwRkscFLLRR9ckB_MU20ZKk1qy2y9faZPSfsxpDPzEEd9D7",
                     "title" : "Raga Watch​",
                     "description" : "Buy 4, Get 10% off on each​",
-                    "channel" : "omni"
+                    "channel" : "omni",
+                    "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
                 }
             ]
 

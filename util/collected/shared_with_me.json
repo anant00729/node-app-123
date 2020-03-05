@@ -22,7 +22,8 @@
             "shareCount": 3,
             "remainingtime": " 5 hours",
             "sharedBy" : "Prabhat",
-            "offerShareLink" : "www.tcp.com/d21ed022-b54b-4657-8b17-9da124a06b0c"
+            "offerShareLink" : "www.tcp.com/d21ed022-b54b-4657-8b17-9da124a06b0c",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         },
         {
             "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
@@ -43,7 +44,8 @@
             "offerstatus" : "shared",
             "shareCount": -2,
             "sharedBy" : "Ankit",
-            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc"
+            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         },
         {
             "id": "4d2cdf34-5fe7-4d61-ac55-c37a22a2ca8bc",
@@ -56,7 +58,8 @@
             "offerDuration": "Valid from 00:00 hours 01-Jan-2020 to 23:59 hours 11-Jan-2020",
             "offerstatus" : "shared",
             "sharedBy" : "Prasanta",
-            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c37a22a2ca8bc"
+            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c37a22a2ca8bc",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
 
         },
         {
@@ -74,7 +77,8 @@
             },
             "offerstatus" : "shared",
             "sharedBy" : "Pramod",
-            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc"
+            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         }
     ]
 }

@@ -19,7 +19,8 @@
             "offerstatus" : "collected",
             "shareCount": -1,
             "sharedBy" : "",
-            "offerShareLink" : "www.tcp.com/TD_Demo7"
+            "offerShareLink" : "www.tcp.com/TD_Demo7",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         },
         {
             "id": "586137cd-828f-4f3c-9afc-1b618c090ed6",
@@ -37,7 +38,8 @@
             "offerstatus" : "collected",
             "shareCount": 3,
             "sharedBy" : "",
-            "offerShareLink" : "www.tcp.com/586137cd-828f-4f3c-9afc-1b618c090ed6"
+            "offerShareLink" : "www.tcp.com/586137cd-828f-4f3c-9afc-1b618c090ed6",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         },
         {
             "id": "TD_Demo11",
@@ -55,7 +57,8 @@
             "offerstatus" : "collected",
             "shareCount": 700,
             "sharedBy" : "Prasanta",
-            "offerShareLink" : "www.tcp.com/TD_Demo3"
+            "offerShareLink" : "www.tcp.com/TD_Demo3",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         }
         
     ]
