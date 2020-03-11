@@ -18,9 +18,9 @@
             },
             "offerstatus" : "collected",
             "shareCount": -1,
-            "sharedBy" : "",
             "offerShareLink" : "www.tcp.com/TD_Demo7",
-            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>",
+            "sharedBy" : "Ankit"
         },
         {
             "id": "d21ed022-b54b-4657-8b17-9da124a06b0c",
