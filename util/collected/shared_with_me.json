@@ -4,6 +4,25 @@
     ],
     "data": [
         {
+            "id" : "TD_Demo7",
+            "title": "Data Cable​",
+            "description": "Buy 2, Get $3 off on each​",
+            "mics": "",
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuhX8ccJSBNJ87ejBdMyeNgnbUF5_iK2OACYg-Xh8da_lU2MB6",
+            "channel": "offline",
+            "remainingtime": "7 hours", 
+            "activationtype": "",
+            "shareDetails": {
+                "type": "limited",
+                "shareCount": 4
+            },
+            "offerstatus" : "collected",
+            "shareCount": -1,
+            "sharedBy" : "",
+            "offerShareLink" : "www.tcp.com/TD_Demo7",
+            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
+        },
+        {
             "id": "d21ed022-b54b-4657-8b17-9da124a06b0c",
             "title": "Taj Mahal Palace",
             "description": "Get 10x points on stay",
