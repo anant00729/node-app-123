@@ -24,13 +24,13 @@
             "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         },
         {
-            "id": "d21ed022-b54b-4657-8b17-9da124a06b0c",
-            "title": "Taj Mahal Palace",
-            "description": "Get 10x points on stay",
+            "id": "TD_Demo11",
+            "title": "Nuon Tshirt​",
+            "description": "Buy 3, Get $5 off on each​",
             "mics": "",
             "channel": "Offline",
             "activationtype": "Collected",
-            "image": "https://i.imgur.com/OXKV1vL.jpg",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCoLL4lYhutM3dKUH8SPlJ_U84tVDOjFwm8FmwvhmXguSglqT_",
             "used_on": "15-01-2020",
             "redeemat": "Taj Fort Aguada, Goa",
             "totalsavings": "5000 rs",
@@ -43,28 +43,6 @@
             "remainingtime": " 5 hours",
             "sharedBy" : "",
             "offerShareLink" : "www.tcp.com/d21ed022-b54b-4657-8b17-9da124a06b0c",
-            "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
-        },
-        {
-            "id": "4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
-            "title": "Tata Sky UHD setup box",
-            "description": "FLAT 500rs CB",
-            "mics": "",
-            "activationtype": "Collected",
-            "channel": "online",
-            "redeemat": "tcp app",
-            "totalsavings": "500 rs",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWGF9dUnkLnCICUN4eybzGqOjFNk6roi2hCLewycvxnTx1PytT",
-            "remainingtime": " 5 hours",
-            "sharedetails": {
-                "type": "limited",
-                "shareCount": 5
-            },
-            "used_on": "10-01-2020",
-            "offerstatus" : "used",
-            "shareCount": -2,
-            "sharedBy" : "",
-            "offerShareLink" : "www.tcp.com/4d2cdf34-5fe7-4d61-ac55-c36a0a2ca8bc",
             "availSteps": "<p><ul><li>&nbsp;Collect the offer from TCP App​</li><li>&nbsp;Click on ‘Shop Now’ and select products of your choice associated with the offer OR Walk into anyTitan store and select products of your choice associated with the offer​</li><li>&nbsp;Offer is auto-applied at checkout page or payment counter​</li></ul></p>"
         }
     ]
