@@ -17,7 +17,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "html-pdf": "^2.2.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "node-geocoder": "^3.25.0",
     "perf_hooks": "0.0.1",
     "pg": "^7.12.1",
